@@ -1,0 +1,76 @@
+# Global Career Development Index — Weight Configuration
+# All weights sum to 100%. Used by tools/score_calculator.py.
+
+categories:
+  入门门槛: 6
+  发展空间: 10
+  市场面: 10
+  收入与回报: 9
+  稳定与风险: 15
+  口碑与转型: 9
+  未来: 6
+  生活质量: 15
+  结构性与灵活性: 20
+
+weights:
+  # 入门门槛 (6%)
+  learning_cost: 3
+  education_req: 3
+  # 发展空间 (10%)
+  growth_coeff: 4
+  career_lifespan: 3
+  opportunity: 3
+  # 市场面 (10%)
+  market_size: 2
+  supply_demand: 4
+  developed_scarcity: 4
+  # 收入与回报 (9%)
+  value_added: 5
+  cost_performance: 4
+  # 稳定与风险 (15%)
+  stability: 4
+  safety: 3
+  occupational_disease: 2
+  overtime: 3
+  burnout: 3
+  # 口碑与转型 (9%)
+  skill_versatility: 3
+  career_switch: 3
+  reputation_variance: 3
+  # 未来 (6%)
+  ai_resistance: 6
+  # 生活质量 (15%)
+  social_status: 3
+  remote_friendly: 3
+  autonomy: 3
+  family_friendly: 3
+  fulfillment: 3
+  # 结构性与灵活性 (20%)
+  entrepreneurship: 2
+  gender_equality: 2
+  age_flexibility: 2
+  social_interaction: 2
+  physical_demand: 1
+  license_barrier: 2
+  cycle_sensitivity: 2
+  side_job_compat: 2
+  intl_mobility: 3
+  industry_monopoly: 2
+
+# Reverse dimensions: higher raw value = worse for the individual.
+# These are inverted (10 - raw) before weighting so all dimensions
+# are "higher = better" in the composite index.
+reverse_dimensions:
+  - learning_cost
+  - education_req
+  - physical_demand
+  - license_barrier
+  - cycle_sensitivity
+  - industry_monopoly
+
+# Special case: reputation_variance is 0-5 scale.
+# Normalized to 0-10 then reversed: (5 - raw) * 2
+special_normalization:
+  reputation_variance:
+    raw_range: [0, 5]
+    direction: reverse
