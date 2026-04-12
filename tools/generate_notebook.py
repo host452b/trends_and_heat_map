@@ -1,8 +1,9 @@
 """Jupyter notebook generator for career development index data.
 
-Creates .ipynb files with pandas styling (red-green heatmaps).
+Creates .ipynb files with pre-rendered HTML tables (inline color styles)
+so GitHub can display heatmaps without executing the notebook.
 """
-import os
+import pandas as pd
 import nbformat
 from nbformat.v4 import new_notebook, new_markdown_cell, new_code_cell
 from pathlib import Path
@@ -22,8 +23,90 @@ SCORE_COLUMNS = [
 TREND_COLUMNS = ["trend_2000_2026", "trend_5yr"]
 
 
+def score_to_style(score, vmin=0, vmax=10):
+    """Generate inline CSS background-color for a score."""
+    ratio = max(0, min(1, (score - 3) / 7))
+    if ratio < 0.5:
+        r, g, b = 220, int(60 + ratio * 2 * 180), 60
+    else:
+        r, g, b = int(220 - (ratio - 0.5) * 2 * 180), 200, int(60 + (ratio - 0.5) * 2 * 40)
+    return f"background-color: rgba({r},{g},{b}, 0.35)"
+
+
+def variance_to_style(score):
+    """Reversed color for reputation_variance: 0=green, 5=red."""
+    inverted = 10 - score * 2  # map 0-5 to 10-0
+    return score_to_style(inverted)
+
+
+def trend_to_style(score):
+    """Color for trend columns: -5=red, 0=neutral, +5=green."""
+    mapped = (score + 5) / 10 * 10  # map -5..+5 to 0..10
+    return score_to_style(mapped)
+
+
+def _cell_style(col, value):
+    """Return the inline style string for a given column and value."""
+    try:
+        v = float(value)
+    except (ValueError, TypeError):
+        return ""
+    if col == "reputation_variance":
+        return variance_to_style(v)
+    if col in TREND_COLUMNS:
+        return trend_to_style(v)
+    if col == "composite_index" or col in SCORE_COLUMNS:
+        return score_to_style(v)
+    return ""
+
+
+def render_html_table(df, page_size=60):
+    """Render a DataFrame as a list of HTML table strings, one per page."""
+    pages = []
+    total_rows = len(df)
+    columns = list(df.columns)
+
+    for start in range(0, total_rows, page_size):
+        end = min(start + page_size, total_rows)
+        chunk = df.iloc[start:end]
+
+        rows_html = []
+        # Header row
+        header_cells = []
+        for col in columns:
+            header_cells.append(
+                f'<th style="border: 1px solid #ddd; padding: 4px 6px;">{col}</th>'
+            )
+        rows_html.append("<tr>" + "".join(header_cells) + "</tr>")
+
+        # Data rows
+        for _, row in chunk.iterrows():
+            data_cells = []
+            for col in columns:
+                val = row[col]
+                style = _cell_style(col, val)
+                if style:
+                    style_attr = f' style="border: 1px solid #ddd; padding: 4px 6px; {style}"'
+                else:
+                    style_attr = ' style="border: 1px solid #ddd; padding: 4px 6px;"'
+                display_val = val if pd.notna(val) else ""
+                data_cells.append(f"<td{style_attr}>{display_val}</td>")
+            rows_html.append("<tr>" + "".join(data_cells) + "</tr>")
+
+        html = (
+            '<table style="border-collapse: collapse; font-size: 12px;">\n'
+            + "\n".join(rows_html)
+            + "\n</table>"
+        )
+        pages.append(html)
+
+    return pages
+
+
 def create_data_notebook(csv_path, notebook_path, title="Data", description=""):
-    """Create a 1:1 data notebook with red-green heatmap styling."""
+    """Create a data notebook with pre-rendered HTML heatmap tables."""
+    df = pd.read_csv(csv_path)
+
     nb = new_notebook()
     nb.metadata["kernelspec"] = {
         "display_name": "Python 3",
@@ -31,7 +114,7 @@ def create_data_notebook(csv_path, notebook_path, title="Data", description=""):
         "name": "python3",
     }
 
-    # Cell 1: Title
+    # Cell 1: Markdown title
     md = f"# {title}\n"
     if description:
         md += f"\n{description}\n"
@@ -40,68 +123,56 @@ def create_data_notebook(csv_path, notebook_path, title="Data", description=""):
     md += "趋势：红色(暴跌-5) → 白色(持平0) → 绿色(暴涨+5)"
     nb.cells.append(new_markdown_cell(md))
 
-    # Cell 2: Imports + load data
-    # Compute relative path from notebook to CSV
-    nb_dir = Path(notebook_path).resolve().parent
-    csv_abs = Path(csv_path).resolve()
-    try:
-        rel = os.path.relpath(csv_abs, nb_dir)
-    except ValueError:
-        rel = str(csv_abs)
+    # Cell 2: Record counts (pre-rendered text output)
+    record_count = len(df)
+    country_count = (
+        df["country_or_region"].nunique()
+        if "country_or_region" in df.columns
+        else "N/A"
+    )
+    occupation_count = (
+        df["sub_category"].nunique() if "sub_category" in df.columns else "N/A"
+    )
+    stats_text = (
+        f"记录数: {record_count}\n"
+        f"国家/地区: {country_count}\n"
+        f"职业细类: {occupation_count}"
+    )
+    stats_cell = new_code_cell("# Dataset overview")
+    stats_cell.outputs = [
+        nbformat.v4.new_output(output_type="stream", name="stdout", text=stats_text)
+    ]
+    nb.cells.append(stats_cell)
 
-    load_code = f"""import pandas as pd
-import warnings
-warnings.filterwarnings('ignore')
+    # Cells 3+: Paginated HTML tables
+    pages = render_html_table(df, page_size=60)
+    for i, html in enumerate(pages, 1):
+        page_cell = new_code_cell(f"# Page {i} of {len(pages)}")
+        page_cell.outputs = [
+            nbformat.v4.new_output(
+                output_type="display_data",
+                data={"text/html": html},
+            )
+        ]
+        nb.cells.append(page_cell)
 
-df = pd.read_csv('{rel}')
-print(f"记录数: {{len(df)}}")
-print(f"国家/地区: {{df['country_or_region'].nunique() if 'country_or_region' in df.columns else 'N/A'}}")
-print(f"职业细类: {{df['sub_category'].nunique() if 'sub_category' in df.columns else 'N/A'}}")
-"""
-    nb.cells.append(new_code_cell(load_code))
+    # Last cell: Summary statistics (pre-rendered text)
+    score_present = [c for c in SCORE_COLUMNS if c in df.columns]
+    if score_present:
+        summary_lines = ["=== Score Summary ==="]
+        desc = df[score_present].describe().round(2)
+        summary_lines.append(desc.to_string())
+        summary_text = "\n".join(summary_lines)
+    else:
+        summary_text = "No score columns found."
 
-    # Cell 3: Styled full table
-    score_cols_str = repr(SCORE_COLUMNS)
-    trend_cols_str = repr(TREND_COLUMNS)
-
-    style_code = f"""score_cols = {score_cols_str}
-trend_cols = {trend_cols_str}
-
-# Filter to columns that exist in this CSV
-score_present = [c for c in score_cols if c in df.columns]
-trend_present = [c for c in trend_cols if c in df.columns]
-
-styled = df.style
-
-# Score columns: red(0) → yellow(5) → green(10)
-if score_present:
-    non_var = [c for c in score_present if c != 'reputation_variance']
-    if non_var:
-        styled = styled.background_gradient(subset=non_var, cmap='RdYlGn', vmin=0, vmax=10)
-    # Variance column: reversed (green=0=stable, red=5=polarized)
-    if 'reputation_variance' in score_present:
-        styled = styled.background_gradient(subset=['reputation_variance'], cmap='RdYlGn_r', vmin=0, vmax=5)
-
-# Trend columns: red(-5) → white(0) → green(+5)
-if trend_present:
-    styled = styled.background_gradient(subset=trend_present, cmap='RdYlGn', vmin=-5, vmax=5)
-
-# Composite index
-if 'composite_index' in df.columns:
-    styled = styled.background_gradient(subset=['composite_index'], cmap='RdYlGn', vmin=0, vmax=10)
-
-styled.set_properties(**{{'font-size': '11px'}})
-styled
-"""
-    nb.cells.append(new_code_cell(style_code))
-
-    # Cell 4: Summary statistics
-    summary_code = """# Summary statistics for score columns
-if score_present:
-    print("=== Score Summary ===")
-    display(df[score_present].describe().round(2))
-"""
-    nb.cells.append(new_code_cell(summary_code))
+    summary_cell = new_code_cell("# Summary statistics")
+    summary_cell.outputs = [
+        nbformat.v4.new_output(
+            output_type="stream", name="stdout", text=summary_text
+        )
+    ]
+    nb.cells.append(summary_cell)
 
     # Write notebook
     Path(notebook_path).parent.mkdir(parents=True, exist_ok=True)
