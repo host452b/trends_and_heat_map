@@ -42,9 +42,11 @@ COLOR_LEGEND = (
 
 
 def load_all_data():
-    """Load and concatenate all 12 CSV files."""
+    """Load and concatenate all 12 category CSV files (exclude aggregated 00_* and predictions)."""
     dfs = []
     for f in sorted(CSV_DIR.glob("*.csv")):
+        if f.name.startswith("00_") or f.name.startswith("predictions"):
+            continue
         dfs.append(pd.read_csv(f))
     return pd.concat(dfs, ignore_index=True)
 
