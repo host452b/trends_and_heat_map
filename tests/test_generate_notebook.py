@@ -134,7 +134,7 @@ class TestRenderHtmlTable:
         df = self._sample_df(3)
         pages = render_html_table(df)
         assert "<th" in pages[0]
-        assert "learning_cost" in pages[0]
+        assert "学习成本" in pages[0]
 
     def test_html_contains_colored_cells(self):
         df = self._sample_df(3)

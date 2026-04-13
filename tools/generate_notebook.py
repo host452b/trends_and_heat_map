@@ -8,6 +8,89 @@ import nbformat
 from nbformat.v4 import new_notebook, new_markdown_cell, new_code_cell
 from pathlib import Path
 
+COLUMN_ZH = {
+    # Basic info
+    "id": "ID",
+    "major_category": "大类",
+    "major_code": "代码",
+    "mid_category": "中类",
+    "sub_category": "职业",
+    "sub_category_en": "职业(英)",
+    "isco_code": "ISCO",
+    "onet_code": "O*NET",
+    "region": "区域",
+    "country_or_region": "国家/地区",
+    "iso_code": "ISO",
+    "type": "类型",
+    "employer_type": "雇主类型",
+    "typical_education": "典型学历",
+    "typical_entry_age": "入行年龄",
+    "locality": "地区性",
+    # Score dimensions
+    "learning_cost": "学习成本",
+    "education_req": "学历要求",
+    "growth_coeff": "成长系数",
+    "career_lifespan": "职业寿命",
+    "opportunity": "职业机遇",
+    "market_size": "市场大小",
+    "supply_demand": "供需关系",
+    "developed_scarcity": "发达稀缺",
+    "value_added": "附加值",
+    "cost_performance": "性价比",
+    "stability": "稳定性",
+    "safety": "安全系数",
+    "occupational_disease": "职业病",
+    "overtime": "加班程度",
+    "burnout": "倦怠水平",
+    "skill_versatility": "技能通用",
+    "career_switch": "转行容易",
+    "reputation_variance": "口碑方差",
+    "ai_resistance": "AI抗性",
+    "social_status": "社会地位",
+    "remote_friendly": "远程友好",
+    "autonomy": "自由度",
+    "family_friendly": "家庭友好",
+    "fulfillment": "成就感",
+    "entrepreneurship": "创业率",
+    "gender_equality": "性别平等",
+    "age_flexibility": "年龄弹性",
+    "social_interaction": "社交属性",
+    "physical_demand": "体力要求",
+    "license_barrier": "执照壁垒",
+    "cycle_sensitivity": "周期敏感",
+    "side_job_compat": "副业兼容",
+    "intl_mobility": "国际流动",
+    "industry_monopoly": "行业垄断",
+    # Trend & summary
+    "trend_2000_2026": "26年趋势",
+    "trend_5yr": "5年趋势",
+    "demand_direction": "需求方向",
+    "ai_timeline": "AI时间线",
+    "composite_index": "综合指数",
+    "summary_zh": "摘要",
+    "summary_en": "摘要(英)",
+    "data_source": "数据来源",
+    # Time metadata
+    "generated_date": "生成日期",
+    "data_snapshot_date": "快照日期",
+    "source_period": "数据周期",
+    # China-specific
+    "median_salary_rmb": "中位年薪(元)",
+    # Aggregated table columns
+    "composite_global_mean": "全球均值",
+    "composite_min": "最低",
+    "composite_max": "最高",
+    "composite_std": "标准差",
+    "best_country": "最佳国家",
+    "worst_country": "最差国家",
+    "cn_vs_global": "中国vs全球",
+    "country_count": "国家数",
+}
+# Regional composites
+for _region in ["东亚", "东南亚", "东欧", "中亚/西亚", "北欧", "北美", "南亚", "南欧", "南美", "大洋洲", "西欧", "非洲"]:
+    COLUMN_ZH[f"composite_{_region}"] = _region
+
+
 SCORE_COLUMNS = [
     "learning_cost", "education_req", "growth_coeff", "career_lifespan",
     "opportunity", "market_size", "supply_demand", "developed_scarcity",
@@ -74,8 +157,9 @@ def render_html_table(df, page_size=60):
         # Header row
         header_cells = []
         for col in columns:
+            display_name = COLUMN_ZH.get(col, col)
             header_cells.append(
-                f'<th style="border: 1px solid #ddd; padding: 4px 6px;">{col}</th>'
+                f'<th style="border: 1px solid #ddd; padding: 4px 6px;">{display_name}</th>'
             )
         rows_html.append("<tr>" + "".join(header_cells) + "</tr>")
 
