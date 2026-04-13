@@ -80,27 +80,48 @@ def build_sankey_data(pred_df, region_zh):
     for _, row in region_data.iterrows():
         share_lookup[(row["decade"], row["major_code"])] = row["recommendation_share"]
 
+    # Sort categories by average share descending so largest appear first
+    avg_shares = {}
+    for cat in CATEGORY_ORDER:
+        total = sum(share_lookup.get((d, cat), 0) for d in DECADES)
+        avg_shares[cat] = total / len(DECADES)
+    CATEGORY_ORDER_BY_SIZE = sorted(CATEGORY_ORDER, key=lambda c: avg_shares[c], reverse=True)
+
     n_cats = len(CATEGORY_ORDER)
     n_decades = len(DECADES)
-    total_nodes = n_cats * n_decades
 
-    # Node labels: "TECH 2026", "MED 2026", etc.
+    # Node labels, colors, positions
     node_labels = []
     node_colors = []
     node_x = []
     node_y = []
 
+    # We need to map (decade_idx, cat) -> node_index for link building
+    node_index_map = {}
+
+    def clamp(v):
+        return max(0.001, min(0.999, v))
+
     for d_idx, decade in enumerate(DECADES):
         x_pos = d_idx / max(1, n_decades - 1)
-        for c_idx, cat in enumerate(CATEGORY_ORDER):
+        # Stack categories by their share (proportional y-positions)
+        cumulative = 0.0
+        for cat in CATEGORY_ORDER_BY_SIZE:
             share = share_lookup.get((decade, cat), 0)
+            y_center = (cumulative + share / 2) / 100.0
+            cumulative += share
+
+            node_idx = len(node_labels)
+            node_index_map[(d_idx, cat)] = node_idx
+
             label = f"{CATEGORY_ZH_SHORT[cat]} {share:.1f}%"
             node_labels.append(label)
             node_colors.append(CATEGORY_COLORS[cat])
-            node_x.append(max(0.001, min(0.999, x_pos)))
-            # Distribute categories evenly vertically
-            y_pos = (c_idx + 0.5) / n_cats
-            node_y.append(max(0.001, min(0.999, y_pos)))
+            node_x.append(clamp(x_pos))
+            node_y.append(clamp(y_center))
+
+    # Scale factor: multiply all values by 10 so plotly renders thicker links
+    SCALE = 10
 
     # Links between consecutive decades
     sources = []
@@ -127,7 +148,7 @@ def build_sankey_data(pred_df, region_zh):
             if src_share <= 0.01:
                 continue
 
-            src_node = d_idx * n_cats + CATEGORY_ORDER.index(src_cat)
+            src_node = node_index_map[(d_idx, src_cat)]
             tgt_share = shares_to[src_cat]
 
             # Self-flow: minimum of source and target share
@@ -136,15 +157,15 @@ def build_sankey_data(pred_df, region_zh):
             # Surplus to redistribute (if source > target)
             surplus = max(0, src_share - tgt_share)
 
-            # Add self-flow
+            # Add self-flow (more opaque — continuity)
             if self_flow > 0.01:
-                tgt_node = (d_idx + 1) * n_cats + CATEGORY_ORDER.index(src_cat)
+                tgt_node = node_index_map[(d_idx + 1, src_cat)]
                 sources.append(src_node)
                 targets.append(tgt_node)
-                values.append(round(self_flow, 3))
-                link_colors.append(_hex_to_rgba(CATEGORY_COLORS[src_cat], 0.35))
+                values.append(round(self_flow * SCALE, 3))
+                link_colors.append(_hex_to_rgba(CATEGORY_COLORS[src_cat], 0.5))
 
-            # Distribute surplus to growing categories
+            # Distribute surplus to growing categories (less opaque — shift)
             if surplus > 0.01:
                 # Find categories that grew (target > source)
                 growers = {}
@@ -161,26 +182,26 @@ def build_sankey_data(pred_df, region_zh):
                     for tgt_cat, growth in growers.items():
                         flow = surplus * (growth / total_growth)
                         if flow > 0.01:
-                            tgt_node = (d_idx + 1) * n_cats + CATEGORY_ORDER.index(tgt_cat)
+                            tgt_node = node_index_map[(d_idx + 1, tgt_cat)]
                             sources.append(src_node)
                             targets.append(tgt_node)
-                            values.append(round(flow, 3))
-                            link_colors.append(_hex_to_rgba(CATEGORY_COLORS[src_cat], 0.2))
+                            values.append(round(flow * SCALE, 3))
+                            link_colors.append(_hex_to_rgba(CATEGORY_COLORS[src_cat], 0.15))
                 else:
                     # No growers: add surplus as self-flow
-                    tgt_node = (d_idx + 1) * n_cats + CATEGORY_ORDER.index(src_cat)
+                    tgt_node = node_index_map[(d_idx + 1, src_cat)]
                     # Find existing self-flow and add to it
                     found = False
                     for i in range(len(sources) - 1, -1, -1):
                         if sources[i] == src_node and targets[i] == tgt_node:
-                            values[i] += round(surplus, 3)
+                            values[i] += round(surplus * SCALE, 3)
                             found = True
                             break
                     if not found:
                         sources.append(src_node)
                         targets.append(tgt_node)
-                        values.append(round(surplus, 3))
-                        link_colors.append(_hex_to_rgba(CATEGORY_COLORS[src_cat], 0.35))
+                        values.append(round(surplus * SCALE, 3))
+                        link_colors.append(_hex_to_rgba(CATEGORY_COLORS[src_cat], 0.5))
 
     return (node_labels, node_colors, node_x, node_y,
             sources, targets, values, link_colors)
@@ -192,10 +213,10 @@ def create_sankey_figure(pred_df, region_zh, title):
      sources, targets, values, link_colors) = build_sankey_data(pred_df, region_zh)
 
     fig = go.Figure(data=[go.Sankey(
-        arrangement="fixed",
+        arrangement="snap",
         node=dict(
-            pad=8,
-            thickness=18,
+            pad=18,
+            thickness=28,
             line=dict(color="rgba(0,0,0,0.3)", width=0.5),
             label=node_labels,
             color=node_colors,
@@ -231,8 +252,8 @@ def create_sankey_figure(pred_df, region_zh, title):
             xanchor="center",
         ),
         font=dict(size=10, family="Arial, sans-serif"),
-        width=1600,
-        height=1000,
+        width=1800,
+        height=1100,
         margin=dict(l=20, r=20, t=80, b=20),
         paper_bgcolor="white",
         plot_bgcolor="white",
@@ -243,7 +264,7 @@ def create_sankey_figure(pred_df, region_zh, title):
 
 def fig_to_base64_html(fig):
     """Convert plotly figure to base64-encoded PNG wrapped in HTML img tag."""
-    img_bytes = pio.to_image(fig, format="png", width=1600, height=1000, scale=2)
+    img_bytes = pio.to_image(fig, format="png", width=1800, height=1100, scale=2)
     img_b64 = base64.b64encode(img_bytes).decode("utf-8")
     return f'<img src="data:image/png;base64,{img_b64}" style="max-width: 100%;" />'
 
