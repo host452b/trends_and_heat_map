@@ -1,0 +1,18 @@
+﻿typical_education,isced_level,isced_description
+无学历要求,0,Less than primary
+小学,1,Primary education
+初中,2,Lower secondary
+高中/中专/职高,3,Upper secondary
+大专,5,Short-cycle tertiary
+本科,6,Bachelor's or equivalent
+本科/硕士,6,Bachelor's or equivalent (Master's preferred)
+硕士,7,Master's or equivalent
+硕士/博士,7,Master's (Doctoral preferred)
+博士,8,Doctoral or equivalent
+专业学位,7,Professional degree (MD/JD/etc)
+职业证书,4,Post-secondary non-tertiary
+学徒制,3,Apprenticeship (upper secondary equiv)
+培训认证,4,Certification / training program
+军校,6,Military academy (Bachelor equiv)
+警校,5,Police academy (short-cycle tertiary)
+神学院,6,Seminary / theological education

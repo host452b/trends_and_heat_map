@@ -1,0 +1,1201 @@
+﻿project_id_prefix,sub_category_zh,sub_category_en,major_code,onet_code
+TECH-0101,前端工程师,Front-end Engineer,TECH,15-1254.00
+TECH-0102,后端工程师,Back-end Engineer,TECH,15-1252.00
+TECH-0103,全栈工程师,Full-stack Engineer,TECH,15-1252.00
+TECH-0104,移动应用开发工程师,Mobile App Developer,TECH,15-1252.00
+TECH-0105,嵌入式软件工程师,Embedded Software Engineer,TECH,15-1252.00
+TECH-0106,DevOps工程师,DevOps Engineer,TECH,15-1244.00
+TECH-0107,软件测试工程师,Software QA Engineer,TECH,15-1253.00
+TECH-0108,软件架构师,Software Architect,TECH,15-1251.00
+TECH-0109,站点可靠性工程师(SRE),Site Reliability Engineer (SRE),TECH,15-1244.00
+TECH-0110,低代码/无代码开发者,Low-Code/No-Code Developer,TECH,15-1252.00
+TECH-0111,游戏服务器工程师,Game Server Engineer,TECH,15-1252.00
+TECH-0112,数据库管理员,Database Administrator,TECH,15-1242.00
+TECH-0113,技术支持工程师,Technical Support Engineer,TECH,15-1232.00
+TECH-0201,机器学习工程师,Machine Learning Engineer,TECH,15-2051.00
+TECH-0202,数据科学家,Data Scientist,TECH,15-2051.00
+TECH-0203,数据分析师,Data Analyst,TECH,15-2051.00
+TECH-0204,数据工程师,Data Engineer,TECH,15-1243.00
+TECH-0205,NLP工程师,NLP Engineer,TECH,15-2051.00
+TECH-0206,计算机视觉工程师,Computer Vision Engineer,TECH,15-2051.00
+TECH-0207,AI研究科学家,AI Research Scientist,TECH,15-2051.00
+TECH-0208,大数据架构师,Big Data Architect,TECH,15-1243.00
+TECH-0301,网络工程师,Network Engineer,TECH,15-1241.00
+TECH-0302,信息安全工程师,Cybersecurity Engineer,TECH,15-1212.00
+TECH-0303,渗透测试工程师,Penetration Tester,TECH,15-1212.00
+TECH-0304,安全运维工程师,Security Operations Engineer,TECH,15-1212.00
+TECH-0305,云计算工程师,Cloud Engineer,TECH,15-1244.00
+TECH-0306,系统管理员,System Administrator,TECH,15-1244.00
+TECH-0401,产品经理,Product Manager,TECH,15-1299.09
+TECH-0402,UI设计师,UI Designer,TECH,15-1255.00
+TECH-0403,UX设计师,UX Designer,TECH,15-1255.00
+TECH-0404,交互设计师,Interaction Designer,TECH,15-1255.00
+TECH-0405,技术项目经理,Technical Project Manager,TECH,15-1299.09
+TECH-0501,区块链开发工程师,Blockchain Developer,TECH,15-1252.00
+TECH-0502,物联网工程师,IoT Engineer,TECH,15-1252.00
+TECH-0503,机器人流程自动化工程师,RPA Developer,TECH,15-1252.00
+TECH-0504,增强现实/虚拟现实开发工程师,AR/VR Developer,TECH,15-1252.00
+TECH-0505,量子计算研究员,Quantum Computing Researcher,TECH,15-2051.00
+TECH-0506,AI提示工程师,AI Prompt Engineer,TECH,15-1299.09
+TECH-0507,数据标注师,Data Annotator,TECH,43-9021.00
+TECH-0508,数字孪生工程师,Digital Twin Engineer,TECH,15-1252.00
+TECH-0509,边缘计算工程师,Edge Computing Engineer,TECH,15-1252.00
+TECH-0510,Web3开发工程师,Web3 Developer,TECH,15-1252.00
+TECH-0511,AI安全研究员,AI Safety Researcher,TECH,15-2051.00
+TECH-0512,MLOps工程师,MLOps Engineer,TECH,15-1244.00
+TECH-0513,合成数据工程师,Synthetic Data Engineer,TECH,15-2051.00
+TECH-0514,数字无障碍专家,Digital Accessibility Specialist,TECH,15-1255.00
+MED-0101,内科医生,Internal Medicine Physician,MED,29-1216.00
+MED-0102,外科医生,Surgeon,MED,29-1241.00
+MED-0103,全科医生,General Practitioner,MED,29-1215.00
+MED-0104,麻醉科医生,Anesthesiologist,MED,29-1211.00
+MED-0105,放射科医生,Radiologist,MED,29-1224.00
+MED-0106,病理科医生,Pathologist,MED,29-1222.00
+MED-0107,急诊科医生,Emergency Medicine Physician,MED,29-1214.00
+MED-0108,儿科医生,Pediatrician,MED,29-1221.00
+MED-0109,妇产科医生,Obstetrician/Gynecologist,MED,29-1218.00
+MED-0110,心血管科医生,Cardiologist,MED,29-1212.00
+MED-0111,神经内科医生,Neurologist,MED,29-1217.00
+MED-0112,肿瘤科医生,Oncologist,MED,29-1243.00
+MED-0113,骨科医生,Orthopedic Surgeon,MED,29-1241.00
+MED-0114,泌尿科医生,Urologist,MED,29-1241.00
+MED-0115,皮肤科医生,Dermatologist,MED,29-1213.00
+MED-0116,耳鼻喉科医生,Otolaryngologist (ENT),MED,29-1241.00
+MED-0117,整形外科医生,Plastic Surgeon,MED,29-1241.00
+MED-0118,神经外科医生,Neurosurgeon,MED,29-1241.00
+MED-0119,心胸外科医生,Cardiothoracic Surgeon,MED,29-1241.00
+MED-0120,重症医学科医生,Intensivist (ICU Physician),MED,29-1216.00
+MED-0121,内分泌科医生,Endocrinologist,MED,29-1216.00
+MED-0122,肾内科医生,Nephrologist,MED,29-1216.00
+MED-0123,风湿免疫科医生,Rheumatologist,MED,29-1216.00
+MED-0124,消化科医生,Gastroenterologist,MED,29-1216.00
+MED-0125,血液科医生,Hematologist,MED,29-1216.00
+MED-0126,感染科医生,Infectious Disease Physician,MED,29-1216.00
+MED-0127,呼吸科医生,Pulmonologist,MED,29-1216.00
+MED-0128,老年科医生,Geriatrician,MED,29-1216.00
+MED-0129,新生儿科医生,Neonatologist,MED,29-1221.00
+MED-0130,运动医学科医生,Sports Medicine Physician,MED,29-1229.04
+MED-0201,注册护士,Registered Nurse,MED,29-1141.00
+MED-0202,护理师,Nurse Practitioner,MED,29-1171.00
+MED-0203,助产士,Midwife,MED,29-1161.00
+MED-0204,ICU护士,ICU Nurse,MED,29-1141.00
+MED-0205,手术室护士,Operating Room Nurse,MED,29-1141.00
+MED-0206,护士长,Head Nurse / Nurse Manager,MED,11-9111.00
+MED-0207,社区护士,Community Health Nurse,MED,29-1141.00
+MED-0208,护理助理,Nursing Assistant,MED,31-1131.00
+MED-0209,麻醉护士,Nurse Anesthetist,MED,29-1151.00
+MED-0210,儿科护士,Pediatric Nurse,MED,29-1141.00
+MED-0211,肿瘤科护士,Oncology Nurse,MED,29-1141.00
+MED-0212,急诊护士,Emergency Room Nurse,MED,29-1141.00
+MED-0213,透析护士,Dialysis Nurse,MED,29-1141.00
+MED-0301,药剂师,Pharmacist,MED,29-1051.00
+MED-0302,临床药师,Clinical Pharmacist,MED,29-1051.00
+MED-0303,药品研发科学家,Pharmaceutical R&D Scientist,MED,19-2031.00
+MED-0304,药品注册专员,Drug Regulatory Affairs Specialist,MED,11-9121.01
+MED-0305,药品销售代表,Pharmaceutical Sales Representative,MED,41-4011.00
+MED-0306,药品质量管理员,Pharmaceutical QA Specialist,MED,29-1051.00
+MED-0307,药物警戒专员,Pharmacovigilance Specialist,MED,29-1051.00
+MED-0401,物理治疗师,Physical Therapist,MED,29-1123.00
+MED-0402,职业治疗师,Occupational Therapist,MED,29-1122.00
+MED-0403,言语治疗师,Speech-Language Pathologist,MED,29-1127.00
+MED-0404,康复医学科医生,Rehabilitation Physician,MED,29-1229.04
+MED-0405,呼吸治疗师,Respiratory Therapist,MED,29-1126.00
+MED-0406,音乐治疗师,Music Therapist,MED,29-1129.00
+MED-0407,艺术治疗师,Art Therapist,MED,29-1129.00
+MED-0408,运动治疗师,Exercise Therapist / Kinesiologist,MED,29-1128.00
+MED-0409,假肢矫形师,Prosthetist / Orthotist,MED,29-2091.00
+MED-0410,听力师,Audiologist,MED,29-1181.00
+MED-0501,流行病学家,Epidemiologist,MED,19-1041.00
+MED-0502,公共卫生官员,Public Health Officer,MED,11-9111.00
+MED-0503,卫生教育专家,Health Education Specialist,MED,21-1091.00
+MED-0504,营养师,Dietitian / Nutritionist,MED,29-1031.00
+MED-0505,卫生统计师,Biostatistician,MED,15-2041.01
+MED-0506,环境卫生工程师,Environmental Health Engineer,MED,17-2081.00
+MED-0507,疾控中心研究员,CDC Researcher,MED,19-1042.00
+MED-0601,中医师,Traditional Chinese Medicine Practitioner,MED,29-1199.00
+MED-0602,针灸师,Acupuncturist,MED,29-1199.00
+MED-0603,阿育吠陀医师,Ayurveda Practitioner,MED,29-1199.00
+MED-0604,脊椎指压治疗师,Chiropractor,MED,29-1011.00
+MED-0605,自然疗法医师,Naturopathic Physician,MED,29-1199.00
+MED-0606,推拿师,Tui Na Massage Therapist,MED,31-9011.00
+MED-0607,中药师,Chinese Herbal Medicine Pharmacist,MED,29-1199.00
+MED-0608,整骨师,Osteopath,MED,29-1199.00
+MED-0609,顺势疗法医师,Homeopath,MED,29-1199.00
+MED-0701,牙科医生,Dentist,MED,29-1021.00
+MED-0702,牙科卫生师,Dental Hygienist,MED,29-1292.00
+MED-0703,正畸医生,Orthodontist,MED,29-1023.00
+MED-0704,口腔颌面外科医生,Oral & Maxillofacial Surgeon,MED,29-1022.00
+MED-0705,牙科技师,Dental Technician,MED,51-9081.00
+MED-0706,牙周病医生,Periodontist,MED,29-1024.00
+MED-0801,眼科医生,Ophthalmologist,MED,29-1241.00
+MED-0802,验光师,Optometrist,MED,29-1041.00
+MED-0803,配镜师,Optician / Dispensing Optician,MED,29-2081.00
+MED-0901,精神科医生,Psychiatrist,MED,29-1223.00
+MED-0902,临床心理学家,Clinical Psychologist,MED,19-3031.02
+MED-0903,心理咨询师,Counseling Psychologist,MED,19-3031.03
+MED-0904,精神科护士,Psychiatric Nurse,MED,29-1141.00
+MED-0905,心理治疗师,Psychotherapist,MED,19-3031.02
+MED-0906,成瘾咨询师,Addiction Counselor,MED,21-1011.00
+MED-0907,神经心理学家,Neuropsychologist,MED,19-3031.02
+MED-0908,儿童心理学家,Child Psychologist,MED,19-3031.02
+MED-0909,法医心理学家,Forensic Psychologist,MED,19-3031.02
+MED-1001,放射技师,Radiologic Technologist,MED,29-2034.00
+MED-1002,医学检验技师,Medical Laboratory Technologist,MED,29-2011.00
+MED-1003,超声技师,Diagnostic Medical Sonographer,MED,29-2032.00
+MED-1004,核医学技师,Nuclear Medicine Technologist,MED,29-2033.00
+MED-1005,病理技师,Histotechnologist,MED,29-2011.00
+MED-1006,心电图技师,Electrocardiograph Technician,MED,29-2031.00
+MED-1007,MRI技师,MRI Technologist,MED,29-2035.00
+MED-1101,医院管理者,Hospital Administrator,MED,11-9111.00
+MED-1102,医疗信息化专家,Health Informatics Specialist,MED,15-1211.01
+MED-1103,健康保险管理师,Health Insurance Manager,MED,11-9111.00
+MED-1104,医疗质量管理师,Healthcare Quality Manager,MED,11-9111.00
+MED-1105,临床研究协调员,Clinical Research Coordinator,MED,11-9121.01
+MED-1106,医疗编码员,Medical Coder,MED,29-2071.00
+MED-1107,急救技术员/急救员,Emergency Medical Technician (EMT),MED,29-2042.00
+MED-1108,护理人员(院前急救),Paramedic,MED,29-2043.00
+MED-1109,病案编码员,Health Information Technician,MED,29-2072.00
+MED-1110,医疗器械技师,Biomedical Equipment Technician,MED,49-9062.00
+MED-1111,临床试验管理员,Clinical Trial Manager,MED,11-9121.01
+MED-1112,远程医疗协调员,Telemedicine Coordinator,MED,29-9099.00
+MED-1113,医疗翻译,Medical Interpreter,MED,27-3091.00
+MED-1114,健康数据分析师,Health Data Analyst,MED,15-2051.00
+MED-1115,患者体验官,Patient Experience Officer,MED,11-9111.00
+MED-1201,小动物兽医,Small Animal Veterinarian,MED,29-1131.00
+MED-1202,大动物/农场兽医,Large Animal / Farm Veterinarian,MED,29-1131.00
+MED-1203,动物外科兽医,Veterinary Surgeon,MED,29-1131.00
+MED-1204,动物急诊兽医,Emergency Veterinarian,MED,29-1131.00
+MED-1205,兽医公共卫生专家,Veterinary Public Health Specialist,MED,29-1131.00
+MED-1206,动物园兽医,Zoo / Wildlife Veterinarian,MED,29-1131.00
+FIN-0101,银行柜员,Bank Teller,FIN,43-3071.00
+FIN-0102,客户经理(银行),Bank Relationship Manager,FIN,13-2072.00
+FIN-0103,信贷审批员,Credit Analyst,FIN,13-2041.00
+FIN-0104,风控专员,Risk Management Specialist,FIN,13-2054.00
+FIN-0105,合规专员,Compliance Officer,FIN,13-1041.00
+FIN-0106,私人银行家,Private Banker,FIN,13-2052.00
+FIN-0107,贸易融资专员,Trade Finance Specialist,FIN,13-2072.00
+FIN-0108,银行分行行长,Bank Branch Manager,FIN,11-3031.01
+FIN-0109,外汇交易员(银行),Bank FX Trader,FIN,13-2051.00
+FIN-0110,信用卡业务经理,Credit Card Business Manager,FIN,11-3031.01
+FIN-0111,金融科技产品经理,FinTech Product Manager,FIN,15-1299.09
+FIN-0112,反洗钱分析师,Anti-Money Laundering (AML) Analyst,FIN,13-2054.00
+FIN-0201,股票分析师,Equity Analyst,FIN,13-2051.00
+FIN-0202,基金经理,Fund Manager,FIN,11-3031.01
+FIN-0203,投行分析师,Investment Banking Analyst,FIN,13-2051.00
+FIN-0204,PE投资经理,Private Equity Manager,FIN,11-3031.02
+FIN-0205,风险投资人,Venture Capitalist,FIN,11-3031.02
+FIN-0206,量化交易员,Quantitative Trader,FIN,13-2051.00
+FIN-0207,债券分析师,Fixed Income Analyst,FIN,13-2051.00
+FIN-0208,证券经纪人,Stockbroker,FIN,41-3031.00
+FIN-0209,外汇交易员,Forex Trader,FIN,13-2051.00
+FIN-0210,财富管理顾问,Wealth Management Advisor,FIN,13-2052.00
+FIN-0211,信托经理,Trust Manager,FIN,13-2052.00
+FIN-0212,衍生品交易员,Derivatives Trader,FIN,13-2051.00
+FIN-0213,商品期货交易员,Commodity Futures Trader,FIN,13-2051.00
+FIN-0214,投资组合分析师,Portfolio Analyst,FIN,13-2051.00
+FIN-0215,资产管理经理,Asset Manager,FIN,11-3031.02
+FIN-0301,精算师,Actuary,FIN,15-2011.00
+FIN-0302,保险代理人,Insurance Agent,FIN,41-3021.00
+FIN-0303,保险理赔员,Claims Adjuster,FIN,13-1031.02
+FIN-0304,保险精算分析师,Actuarial Analyst,FIN,15-2011.00
+FIN-0305,保险核保师,Insurance Underwriter,FIN,13-2053.00
+FIN-0306,再保险专员,Reinsurance Specialist,FIN,13-2053.00
+FIN-0307,保险产品开发师,Insurance Product Developer,FIN,13-2053.00
+FIN-0308,保险经纪人,Insurance Broker,FIN,41-3021.00
+FIN-0309,损失评估师,Loss Adjuster,FIN,13-1031.02
+FIN-0401,注册会计师,Certified Public Accountant (CPA),FIN,13-2011.01
+FIN-0402,审计师,Auditor,FIN,13-2011.02
+FIN-0403,税务师,Tax Advisor,FIN,13-2082.00
+FIN-0404,管理会计师,Management Accountant,FIN,13-2011.01
+FIN-0405,法务会计师,Forensic Accountant,FIN,13-2011.01
+FIN-0406,会计文员,Bookkeeper / Accounting Clerk,FIN,43-3031.00
+FIN-0407,内部审计师,Internal Auditor,FIN,13-2011.02
+FIN-0408,财务分析师,Financial Analyst,FIN,13-2051.00
+FIN-0409,出纳员,Cashier / Treasury Clerk,FIN,43-3031.00
+FIN-0410,ERP财务顾问,ERP Financial Consultant,FIN,13-2011.01
+FIN-0501,战略咨询顾问,Strategy Consultant,FIN,13-1111.00
+FIN-0502,IT咨询顾问,IT Consultant,FIN,13-1111.00
+FIN-0503,人力资源咨询顾问,HR Consultant,FIN,13-1111.00
+FIN-0504,运营咨询顾问,Operations Consultant,FIN,13-1111.00
+FIN-0505,财务咨询顾问,Financial Advisory Consultant,FIN,13-2052.00
+FIN-0506,ESG咨询顾问,ESG Consultant,FIN,13-1111.00
+FIN-0507,数字化转型咨询顾问,Digital Transformation Consultant,FIN,13-1111.00
+FIN-0508,供应链咨询顾问,Supply Chain Consultant,FIN,13-1111.00
+FIN-0601,房地产经纪人,Real Estate Agent,FIN,41-9022.00
+FIN-0602,房地产估价师,Real Estate Appraiser,FIN,13-2023.00
+FIN-0603,物业管理经理,Property Manager,FIN,11-9141.00
+FIN-0604,土地规划师,Land Use Planner,FIN,19-3051.00
+FIN-0605,房地产开发商,Real Estate Developer,FIN,11-9021.00
+FIN-0606,REITs分析师,REIT Analyst,FIN,13-2051.00
+FIN-0607,商业地产经理,Commercial Real Estate Manager,FIN,11-9141.00
+FIN-0701,伊斯兰教法合规分析师,Sharia Compliance Analyst,FIN,13-2054.00
+FIN-0702,伊斯兰银行产品经理,Islamic Banking Product Manager,FIN,11-3031.01
+FIN-0703,伊斯兰金融顾问,Islamic Finance Advisor,FIN,13-2052.00
+FIN-0704,塔卡福尔(伊斯兰保险)专员,Takaful Specialist,FIN,13-2053.00
+FIN-0705,穆拉巴哈融资专员,Murabaha Finance Specialist,FIN,13-2052.00
+FIN-0801,首席执行官(CEO),Chief Executive Officer (CEO),FIN,11-1011.00
+FIN-0802,首席运营官(COO),Chief Operating Officer (COO),FIN,11-1011.00
+FIN-0803,首席财务官(CFO),Chief Financial Officer (CFO),FIN,11-3031.01
+FIN-0804,首席营销官(CMO),Chief Marketing Officer (CMO),FIN,11-2021.00
+FIN-0805,首席信息官(CIO),Chief Information Officer (CIO),FIN,11-3021.00
+FIN-0806,总经理,General Manager,FIN,11-1021.00
+FIN-0807,企业家/创业者,Entrepreneur,FIN,11-1011.00
+FIN-0808,董事会秘书,Corporate Secretary,FIN,11-3012.00
+FIN-0809,首席技术官(CTO),Chief Technology Officer (CTO),FIN,11-3021.00
+FIN-0810,首席人力资源官(CHRO),Chief Human Resources Officer (CHRO),FIN,11-3121.00
+FIN-0811,首席数据官(CDO),Chief Data Officer (CDO),FIN,11-3021.00
+FIN-0812,首席可持续发展官(CSO),Chief Sustainability Officer (CSO),FIN,11-1011.00
+FIN-0813,投资者关系总监,Investor Relations Director,FIN,11-2031.00
+FIN-0901,招聘专员,Recruiter,FIN,13-1071.00
+FIN-0902,培训与发展经理,Training & Development Manager,FIN,11-3131.00
+FIN-0903,薪酬福利经理,Compensation & Benefits Manager,FIN,11-3111.00
+FIN-0904,HRBP(人力资源业务伙伴),HR Business Partner,FIN,13-1071.00
+FIN-0905,人力资源总监,HR Director,FIN,11-3121.00
+FIN-0906,劳动关系专员,Labor Relations Specialist,FIN,13-1075.00
+FIN-0907,猎头顾问,Executive Search Consultant / Headhunter,FIN,13-1071.00
+FIN-0908,组织发展顾问,Organizational Development Consultant,FIN,13-1111.00
+FIN-0909,员工关系专员,Employee Relations Specialist,FIN,13-1071.00
+FIN-0910,人才测评顾问,Talent Assessment Consultant,FIN,13-1071.00
+FIN-1001,采购经理,Procurement Manager,FIN,11-3061.00
+FIN-1002,供应链经理,Supply Chain Manager,FIN,11-3071.01
+FIN-1003,国际贸易专员,International Trade Specialist,FIN,13-1199.06
+FIN-1004,采购分析师,Procurement Analyst,FIN,13-1023.00
+FIN-1005,供应链分析师,Supply Chain Analyst,FIN,13-1081.01
+FIN-1006,合同管理专员,Contract Manager,FIN,13-1023.00
+FIN-1007,进出口经理,Import/Export Manager,FIN,11-3071.01
+FIN-1008,关务经理,Customs Compliance Manager,FIN,13-1041.06
+FIN-1101,市场营销经理,Marketing Manager,FIN,11-2021.00
+FIN-1102,销售经理,Sales Manager,FIN,11-2022.00
+FIN-1103,大客户经理,Key Account Manager,FIN,41-4012.00
+FIN-1104,渠道经理,Channel Manager,FIN,11-2022.00
+FIN-1105,商务拓展经理(BD),Business Development Manager,FIN,11-2021.00
+FIN-1106,CRM分析师,CRM Analyst,FIN,13-1161.00
+FIN-1107,数字营销专员,Digital Marketing Specialist,FIN,13-1161.00
+FIN-1108,产品营销经理,Product Marketing Manager,FIN,11-2021.00
+FIN-1201,加密货币分析师,Cryptocurrency Analyst,FIN,13-2051.00
+FIN-1202,DeFi策略师,DeFi Strategist,FIN,13-2051.00
+FIN-1203,代币经济学设计师,Tokenomics Designer,FIN,13-2051.00
+FIN-1204,智能合约审计师,Smart Contract Auditor,FIN,15-1212.00
+FIN-1205,加密合规专员,Crypto Compliance Specialist,FIN,13-1041.00
+FIN-1206,量化加密交易员,Quantitative Crypto Trader,FIN,13-2051.00
+EDU-0101,小学教师,Elementary School Teacher,EDU,25-2021.00
+EDU-0102,中学教师,Secondary School Teacher,EDU,25-2031.00
+EDU-0103,特殊教育教师,Special Education Teacher,EDU,25-2054.00
+EDU-0104,学校心理咨询师,School Counselor,EDU,21-1012.00
+EDU-0105,国际学校教师,International School Teacher,EDU,25-2031.00
+EDU-0106,体育教师,Physical Education Teacher,EDU,25-2059.01
+EDU-0107,音乐教师,Music Teacher,EDU,25-1121.00
+EDU-0108,美术教师,Art Teacher,EDU,25-1121.00
+EDU-0109,高中数学教师,High School Math Teacher,EDU,25-2031.00
+EDU-0110,信息技术教师,IT / Computer Science Teacher,EDU,25-2031.00
+EDU-0111,外语教师(K12),Foreign Language Teacher (K-12),EDU,25-2031.00
+EDU-0112,科学教师,Science Teacher,EDU,25-2031.00
+EDU-0113,图书馆教师/媒体专员,School Library Media Specialist,EDU,25-4022.00
+EDU-0201,大学教授,University Professor,EDU,25-1099.00
+EDU-0202,大学讲师,University Lecturer,EDU,25-1099.00
+EDU-0203,博士后研究员,Postdoctoral Researcher,EDU,25-1099.00
+EDU-0204,助教,Teaching Assistant,EDU,25-1191.00
+EDU-0205,大学招生官,University Admissions Officer,EDU,11-9033.00
+EDU-0206,终身教职教授,Tenured Professor,EDU,25-1099.00
+EDU-0207,学术顾问/导师,Academic Advisor,EDU,21-1012.00
+EDU-0208,大学兼职讲师/客座教授,Adjunct / Visiting Professor,EDU,25-1099.00
+EDU-0301,企业培训师,Corporate Trainer,EDU,13-1151.00
+EDU-0302,职业认证讲师,Certification Instructor,EDU,25-1194.00
+EDU-0303,职业技术教师,Vocational Education Teacher,EDU,25-1194.00
+EDU-0304,驾校教练,Driving Instructor,EDU,25-3021.00
+EDU-0305,语言培训教师,Language Training Teacher,EDU,25-3011.00
+EDU-0306,飞行教官,Flight Instructor,EDU,25-3021.00
+EDU-0307,礼仪培训师,Etiquette Trainer,EDU,13-1151.00
+EDU-0401,在线课程设计师,Online Course Designer,EDU,25-9031.00
+EDU-0402,教育科技产品经理,EdTech Product Manager,EDU,15-1299.09
+EDU-0403,MOOC讲师,MOOC Instructor,EDU,25-1099.00
+EDU-0404,教学设计师,Instructional Designer,EDU,25-9031.00
+EDU-0405,在线教育运营,Online Education Operations Manager,EDU,11-9033.00
+EDU-0501,自然科学研究员,Natural Science Researcher,EDU,19-2099.00
+EDU-0502,社会科学研究员,Social Science Researcher,EDU,19-3099.00
+EDU-0503,人文学科研究员,Humanities Researcher,EDU,25-1126.00
+EDU-0504,实验室主任,Laboratory Director,EDU,11-9121.01
+EDU-0505,研究助理,Research Assistant,EDU,19-4099.00
+EDU-0506,学术期刊编辑,Academic Journal Editor,EDU,27-3041.00
+EDU-0507,科研基金管理员,Research Grants Administrator,EDU,11-9199.00
+EDU-0508,科学传播者/科普作家,Science Communicator,EDU,27-3043.00
+EDU-0601,校长(中小学),School Principal,EDU,11-9032.00
+EDU-0602,教务主任,Academic Dean,EDU,11-9033.00
+EDU-0603,教育政策研究员,Education Policy Researcher,EDU,19-3099.00
+EDU-0604,大学校长,University President,EDU,11-9033.00
+EDU-0605,教育督导,Education Inspector / Superintendent,EDU,11-9032.00
+EDU-0606,招生主任,Director of Admissions,EDU,11-9033.00
+EDU-0607,学生事务主任,Dean of Students,EDU,11-9033.00
+EDU-0701,幼儿园教师,Kindergarten Teacher,EDU,25-2012.00
+EDU-0702,蒙特梭利教师,Montessori Teacher,EDU,25-2011.00
+EDU-0703,育婴师,Infant Care Specialist / Nanny,EDU,39-9011.00
+EDU-0704,早教中心教师,Early Childhood Center Teacher,EDU,25-2011.00
+EDU-0705,儿童发展评估师,Child Development Assessor,EDU,21-1012.00
+EDU-0801,学习障碍辅导师,Learning Disability Specialist,EDU,25-2054.00
+EDU-0802,教育心理学家,Educational Psychologist,EDU,19-3031.02
+EDU-0803,手语教师/翻译,Sign Language Teacher/Interpreter,EDU,27-3091.00
+EDU-0804,课后辅导教师/补习教师,After-school Tutor,EDU,25-3098.00
+EDU-0805,STEM教育专家,STEM Education Specialist,EDU,25-9031.00
+EDU-0806,留学顾问,Study Abroad Counselor / Education Agent,EDU,21-1012.00
+EDU-0807,考试出题人/评分员,Test Developer / Exam Grader,EDU,25-9031.00
+EDU-0808,教育数据分析师,Education Data Analyst,EDU,15-2051.00
+EDU-0809,图书管理员(学校),School Librarian,EDU,25-4022.00
+ENG-0101,机械设计工程师,Mechanical Design Engineer,ENG,17-2141.00
+ENG-0102,热能工程师,Thermal Engineer,ENG,17-2141.00
+ENG-0103,流体力学工程师,Fluid Mechanics Engineer,ENG,17-2141.00
+ENG-0104,机器人工程师,Robotics Engineer,ENG,17-2199.08
+ENG-0105,CAD/CAM工程师,CAD/CAM Engineer,ENG,17-3013.00
+ENG-0106,设备工程师,Equipment Engineer,ENG,17-2141.00
+ENG-0107,机电一体化工程师,Mechatronics Engineer,ENG,17-2199.08
+ENG-0108,振动与噪声工程师,Vibration & Acoustics Engineer,ENG,17-2141.00
+ENG-0109,液压工程师,Hydraulic Systems Engineer,ENG,17-2141.00
+ENG-0110,有限元分析工程师(FEA),Finite Element Analysis (FEA) Engineer,ENG,17-2141.00
+ENG-0111,3D打印/增材制造工程师,Additive Manufacturing Engineer,ENG,17-2141.00
+ENG-0112,包装工程师,Packaging Engineer,ENG,17-2141.00
+ENG-0201,电力工程师,Power Engineer,ENG,17-2071.00
+ENG-0202,电子工程师,Electronics Engineer,ENG,17-2072.00
+ENG-0203,控制工程师,Control Systems Engineer,ENG,17-2072.01
+ENG-0204,自动化工程师,Automation Engineer,ENG,17-2072.01
+ENG-0205,PLC编程工程师,PLC Programmer,ENG,17-2072.01
+ENG-0206,电气设计工程师,Electrical Design Engineer,ENG,17-2071.00
+ENG-0207,仪器仪表工程师,Instrumentation Engineer,ENG,17-2072.01
+ENG-0208,电磁兼容工程师,EMC Engineer,ENG,17-2072.00
+ENG-0209,电力系统规划工程师,Power System Planning Engineer,ENG,17-2071.00
+ENG-0210,变电站工程师,Substation Engineer,ENG,17-2071.00
+ENG-0211,信号与通信工程师,Signal & Communications Engineer,ENG,17-2061.00
+ENG-0212,射频工程师(RF),RF Engineer,ENG,17-2061.00
+ENG-0213,光电工程师,Optoelectronics Engineer,ENG,17-2072.00
+ENG-0301,化工工艺工程师,Chemical Process Engineer,ENG,17-2041.00
+ENG-0302,材料工程师,Materials Engineer,ENG,17-2131.00
+ENG-0303,高分子材料工程师,Polymer Engineer,ENG,17-2131.00
+ENG-0304,涂料工程师,Coatings Engineer,ENG,17-2041.00
+ENG-0305,生物化学工程师,Biochemical Engineer,ENG,17-2041.00
+ENG-0306,催化剂工程师,Catalyst Engineer,ENG,17-2041.00
+ENG-0307,陶瓷工程师,Ceramic Engineer,ENG,17-2131.00
+ENG-0308,纳米材料研究员,Nanomaterials Researcher,ENG,17-2131.00
+ENG-0309,食品工程师,Food Engineer,ENG,17-2041.00
+ENG-0310,环境化学工程师,Environmental Chemical Engineer,ENG,17-2041.00
+ENG-0311,复合材料工程师,Composite Materials Engineer,ENG,17-2131.00
+ENG-0312,腐蚀工程师,Corrosion Engineer,ENG,17-2041.00
+ENG-0401,结构工程师,Structural Engineer,ENG,17-2051.00
+ENG-0402,桥梁工程师,Bridge Engineer,ENG,17-2051.00
+ENG-0403,建筑师,Architect,ENG,17-1011.00
+ENG-0404,测量工程师,Surveyor,ENG,17-1022.00
+ENG-0405,岩土工程师,Geotechnical Engineer,ENG,17-2051.00
+ENG-0406,道路工程师,Highway Engineer,ENG,17-2051.00
+ENG-0407,水利工程师,Hydraulic Engineer,ENG,17-2051.01
+ENG-0408,景观设计师,Landscape Architect,ENG,17-1012.00
+ENG-0409,城市规划师,Urban Planner,ENG,19-3051.00
+ENG-0410,工程造价师,Quantity Surveyor / Cost Estimator,ENG,13-1051.00
+ENG-0411,BIM工程师,BIM Engineer,ENG,17-2051.00
+ENG-0412,隧道工程师,Tunnel Engineer,ENG,17-2051.00
+ENG-0413,消防工程师,Fire Protection Engineer,ENG,17-2111.02
+ENG-0414,地下管网工程师,Underground Utilities Engineer,ENG,17-2051.00
+ENG-0415,海洋工程师,Ocean/Marine Engineer,ENG,17-2121.00
+ENG-0416,暖通空调设计工程师,HVAC Design Engineer,ENG,17-2141.00
+ENG-0417,给排水工程师,Water Supply & Drainage Engineer,ENG,17-2051.01
+ENG-0501,飞机设计工程师,Aircraft Design Engineer,ENG,17-2011.00
+ENG-0502,航天工程师,Aerospace Engineer,ENG,17-2011.00
+ENG-0503,卫星工程师,Satellite Engineer,ENG,17-2011.00
+ENG-0504,推进系统工程师,Propulsion Engineer,ENG,17-2011.00
+ENG-0505,航空电子工程师,Avionics Engineer,ENG,17-2011.00
+ENG-0506,航空结构工程师,Aerospace Structural Engineer,ENG,17-2011.00
+ENG-0507,无人机工程师,Drone Engineer / UAV Engineer,ENG,17-2011.00
+ENG-0508,航空材料工程师,Aerospace Materials Engineer,ENG,17-2131.00
+ENG-0509,飞行测试工程师,Flight Test Engineer,ENG,17-2011.00
+ENG-0510,空气动力学工程师,Aerodynamics Engineer,ENG,17-2011.00
+ENG-0601,汽车设计工程师,Automotive Design Engineer,ENG,17-2141.02
+ENG-0602,新能源汽车工程师,New Energy Vehicle Engineer,ENG,17-2141.02
+ENG-0603,自动驾驶工程师,Autonomous Driving Engineer,ENG,17-2141.02
+ENG-0604,车辆动力系统工程师,Powertrain Engineer,ENG,17-2141.02
+ENG-0605,汽车电子工程师,Automotive Electronics Engineer,ENG,17-2072.00
+ENG-0606,汽车安全工程师,Automotive Safety Engineer,ENG,17-2141.02
+ENG-0607,汽车NVH工程师,Automotive NVH Engineer,ENG,17-2141.02
+ENG-0608,电池系统工程师,Battery Systems Engineer,ENG,17-2141.02
+ENG-0609,车身工程师,Vehicle Body Engineer,ENG,17-2141.02
+ENG-0610,底盘工程师,Chassis Engineer,ENG,17-2141.02
+ENG-0611,汽车标定工程师,Automotive Calibration Engineer,ENG,17-2141.02
+ENG-0612,车联网(V2X)工程师,V2X / Connected Vehicle Engineer,ENG,17-2061.00
+ENG-0701,芯片设计工程师(IC Designer),IC Design Engineer,ENG,17-2072.00
+ENG-0702,半导体制造工程师,Semiconductor Fabrication Engineer,ENG,17-2072.00
+ENG-0703,封装测试工程师,Packaging & Testing Engineer,ENG,17-2072.00
+ENG-0704,FPGA工程师,FPGA Engineer,ENG,17-2072.00
+ENG-0705,半导体工艺工程师,Semiconductor Process Engineer,ENG,17-2072.00
+ENG-0706,光刻工程师,Lithography Engineer,ENG,17-2072.00
+ENG-0707,EDA工具工程师,EDA Tools Engineer,ENG,17-2072.00
+ENG-0708,芯片验证工程师,Chip Verification Engineer,ENG,17-2072.00
+ENG-0709,模拟IC设计工程师,Analog IC Design Engineer,ENG,17-2072.00
+ENG-0710,晶圆代工工程师,Foundry / Wafer Fab Engineer,ENG,17-2072.00
+ENG-0801,核电工程师,Nuclear Power Engineer,ENG,17-2161.00
+ENG-0802,核医学物理师,Medical Physicist (Nuclear),ENG,29-1299.01
+ENG-0803,辐射防护工程师,Radiation Protection Engineer,ENG,17-2161.00
+ENG-0804,核反应堆操作员,Nuclear Reactor Operator,ENG,51-8011.00
+ENG-0805,核废料管理工程师,Nuclear Waste Management Engineer,ENG,17-2161.00
+ENG-0806,核燃料工程师,Nuclear Fuel Engineer,ENG,17-2161.00
+ENG-0901,工厂厂长,Plant Manager,ENG,11-3051.00
+ENG-0902,精益生产工程师,Lean Manufacturing Engineer,ENG,17-2112.00
+ENG-0903,工业工程师,Industrial Engineer,ENG,17-2112.00
+ENG-0904,生产计划员,Production Planner,ENG,11-3051.04
+ENG-0905,制造工程师,Manufacturing Engineer,ENG,17-2112.00
+ENG-0906,供应商质量工程师,Supplier Quality Engineer,ENG,17-2112.00
+ENG-0907,设备维护经理,Maintenance Manager,ENG,11-3051.00
+ENG-0908,安全工程师(工厂),Factory Safety Engineer,ENG,17-2111.02
+ENG-0909,自动化产线工程师,Automated Production Line Engineer,ENG,17-2112.00
+ENG-0910,智能制造工程师,Smart Manufacturing / Industry 4.0 Engineer,ENG,17-2112.00
+ENG-1001,质量保证工程师(QA),Quality Assurance Engineer,ENG,17-2112.01
+ENG-1002,质量控制工程师(QC),Quality Control Engineer,ENG,17-2112.01
+ENG-1003,计量工程师,Metrology Engineer,ENG,17-2112.01
+ENG-1004,标准化工程师,Standards Engineer,ENG,17-2112.01
+ENG-1005,无损检测工程师,Non-Destructive Testing (NDT) Engineer,ENG,17-3029.09
+ENG-1006,可靠性工程师,Reliability Engineer,ENG,17-2112.01
+ENG-1007,六西格玛黑带,Six Sigma Black Belt,ENG,17-2112.00
+ENG-1008,认证工程师(CE/UL),Certification Engineer (CE/UL),ENG,17-2112.01
+ENG-1101,通信网络工程师,Telecommunications Network Engineer,ENG,17-2061.00
+ENG-1102,5G系统工程师,5G Systems Engineer,ENG,17-2061.00
+ENG-1103,光纤工程师,Fiber Optics Engineer,ENG,17-2061.00
+ENG-1104,卫星通信工程师,Satellite Communications Engineer,ENG,17-2061.00
+ENG-1105,天线工程师,Antenna Engineer,ENG,17-2061.00
+ENG-1201,生物医学工程师,Biomedical Engineer,ENG,17-2031.00
+ENG-1202,医疗器械设计工程师,Medical Device Design Engineer,ENG,17-2031.00
+ENG-1203,康复工程师,Rehabilitation Engineer,ENG,17-2031.00
+ENG-1204,组织工程研究员,Tissue Engineering Researcher,ENG,17-2031.00
+ENG-1205,生物力学工程师,Biomechanical Engineer,ENG,17-2031.00
+ENG-1301,环境工程师(制造),Environmental Engineer (Manufacturing),ENG,17-2081.00
+ENG-1302,噪声控制工程师,Noise Control / Acoustic Engineer,ENG,17-2199.01
+ENG-1303,能源审计师,Energy Auditor,ENG,13-1199.01
+ENG-1304,绿色建筑工程师,Green Building / LEED Engineer,ENG,17-2051.00
+ENG-1305,水处理工程师(工业),Industrial Water Treatment Engineer,ENG,17-2081.00
+ENG-1306,可靠性/可用性工程师(RAMS),"RAMS Engineer (Reliability, Availability)",ENG,17-2112.01
+ENG-1307,安全评价工程师,Safety Assessment Engineer (HAZOP),ENG,17-2111.02
+ENG-1308,防腐蚀工程师,Corrosion Protection Engineer,ENG,17-2041.00
+ENG-1309,管道完整性工程师,Pipeline Integrity Engineer,ENG,17-2171.00
+ENG-1310,激光工程师,Laser Engineer,ENG,17-2072.00
+ENG-1311,焊接工程师,Welding Engineer,ENG,17-2141.00
+ENG-1312,电镀工程师,Electroplating / Surface Treatment Engineer,ENG,17-2041.00
+ENG-1313,真空技术工程师,Vacuum Technology Engineer,ENG,17-2072.00
+ENG-1314,爆炸力学工程师,Explosion Mechanics / Blast Engineer,ENG,17-2199.00
+GOV-0101,中央政府公务员,Central Government Civil Servant,GOV,11-1031.00
+GOV-0102,外交官,Diplomat,GOV,11-1031.00
+GOV-0103,政策分析师,Policy Analyst,GOV,19-3094.00
+GOV-0104,财政预算官员,Budget Analyst,GOV,13-2031.00
+GOV-0105,税务官员,Tax Official,GOV,13-2081.00
+GOV-0106,立法助理/政策顾问,Legislative Assistant / Policy Advisor,GOV,19-3094.00
+GOV-0107,政府发言人/新闻官,Government Spokesperson / Press Secretary,GOV,27-3031.00
+GOV-0201,地方政府公务员,Local Government Officer,GOV,11-1031.00
+GOV-0202,城管执法人员,Urban Management Officer (Chengguan),GOV,
+GOV-0203,民政事务员,Civil Affairs Officer,GOV,21-1099.00
+GOV-0204,社区干部/街道办事员,Community/Street Office Official,GOV,
+GOV-0205,镇长/区长,Mayor / District Governor,GOV,11-1031.00
+GOV-0206,规划审批官员,Planning & Zoning Officer,GOV,19-3051.00
+GOV-0207,公共卫生巡查员,Public Health Inspector,GOV,29-9011.00
+GOV-0301,法院书记员,Court Clerk,GOV,43-4031.00
+GOV-0302,法警,Court Marshal / Bailiff,GOV,33-3011.00
+GOV-0303,监狱管理人员,Corrections Officer,GOV,33-3012.00
+GOV-0304,缓刑官/假释官,Probation / Parole Officer,GOV,21-1092.00
+GOV-0401,事业编制人员,Public Institution Staff (Shiye Bian),GOV,
+GOV-0402,公共图书馆馆长,Public Library Director,GOV,11-9121.01
+GOV-0403,政府统计人员,Government Statistician,GOV,15-2041.00
+GOV-0404,气象预报员,Meteorologist,GOV,19-2021.00
+GOV-0501,联合国职员,United Nations Staff,GOV,11-1031.00
+GOV-0502,国际组织项目官员,International Organization Program Officer,GOV,11-9199.00
+GOV-0503,国际发展顾问,International Development Advisor,GOV,19-3094.00
+GOV-0504,翻译/口译(国际组织),International Organization Translator/Interpreter,GOV,27-3091.00
+GOV-0601,军官,Military Officer,GOV,55-1011.00
+GOV-0602,士兵/士官,Enlisted Soldier / NCO,GOV,55-3019.00
+GOV-0603,军事情报分析师,Military Intelligence Analyst,GOV,55-3017.00
+GOV-0604,军医,Military Physician,GOV,29-1216.00
+GOV-0605,军事工程师,Military Engineer,GOV,55-1012.00
+GOV-0701,警察,Police Officer,GOV,33-3051.00
+GOV-0702,刑事侦探,Criminal Investigator / Detective,GOV,33-3021.00
+GOV-0703,辅警/协警,Auxiliary Police Officer,GOV,
+GOV-0704,交通警察,Traffic Police Officer,GOV,33-3051.00
+GOV-0705,网络警察,Cybercrime Police Officer,GOV,33-3021.00
+GOV-0706,海关官员,Customs Officer,GOV,33-3021.06
+GOV-0707,边防警察,Border Patrol Agent,GOV,33-3051.01
+GOV-0801,消防员,Firefighter,GOV,33-2011.00
+GOV-0802,消防队长,Fire Captain,GOV,33-1021.01
+GOV-0803,应急管理专员,Emergency Management Specialist,GOV,13-1061.00
+GOV-0804,灾害救援协调员,Disaster Relief Coordinator,GOV,13-1061.00
+GOV-0901,情报分析师,Intelligence Analyst,GOV,33-3021.06
+GOV-0902,网络安全分析师(政府),Government Cybersecurity Analyst,GOV,15-1212.00
+GOV-0903,反恐专家,Counter-terrorism Specialist,GOV,33-3021.06
+GOV-0904,密码学专家(政府),Government Cryptographer,GOV,15-1212.00
+GOV-0905,签证官员,Visa Officer / Immigration Officer,GOV,33-3021.06
+GOV-0906,环境保护执法员,Environmental Enforcement Officer,GOV,33-9032.00
+GOV-0907,食品药品监管员,Food & Drug Inspector,GOV,45-2011.00
+GOV-0908,劳动监察员,Labor Inspector,GOV,13-1041.00
+LAW-0101,公司法律师,Corporate Lawyer,LAW,23-1011.00
+LAW-0102,刑事辩护律师,Criminal Defense Lawyer,LAW,23-1011.00
+LAW-0103,知识产权律师,Intellectual Property Lawyer,LAW,23-1011.00
+LAW-0104,移民律师,Immigration Lawyer,LAW,23-1011.00
+LAW-0105,家庭法律师,Family Lawyer,LAW,23-1011.00
+LAW-0106,劳动法律师,Employment / Labor Lawyer,LAW,23-1011.00
+LAW-0107,税法律师,Tax Lawyer,LAW,23-1011.00
+LAW-0108,环境法律师,Environmental Lawyer,LAW,23-1011.00
+LAW-0109,国际法律师,International Lawyer,LAW,23-1011.00
+LAW-0110,医疗纠纷律师,Medical Malpractice Lawyer,LAW,23-1011.00
+LAW-0111,房地产律师,Real Estate Lawyer,LAW,23-1011.00
+LAW-0112,并购律师,M&A Lawyer,LAW,23-1011.00
+LAW-0113,隐私与数据保护律师,Privacy & Data Protection Lawyer,LAW,23-1011.00
+LAW-0114,破产律师,Bankruptcy Lawyer,LAW,23-1011.00
+LAW-0115,海事律师,Maritime / Admiralty Lawyer,LAW,23-1011.00
+LAW-0116,体育法律师,Sports Lawyer,LAW,23-1011.00
+LAW-0117,娱乐法律师,Entertainment Lawyer,LAW,23-1011.00
+LAW-0118,人权律师,Human Rights Lawyer,LAW,23-1011.00
+LAW-0119,航空法律师,Aviation Lawyer,LAW,23-1011.00
+LAW-0201,法官,Judge,LAW,23-1023.00
+LAW-0202,行政法法官,Administrative Law Judge,LAW,23-1021.00
+LAW-0203,最高法院法官/大法官,Supreme Court Justice,LAW,23-1023.00
+LAW-0301,检察官,Prosecutor,LAW,23-1011.00
+LAW-0302,反腐检察官,Anti-Corruption Prosecutor,LAW,23-1011.00
+LAW-0401,公证人,Notary Public,LAW,23-2011.00
+LAW-0402,公证人(大陆法系),Civil Law Notary,LAW,
+LAW-0403,仲裁员,Arbitrator,LAW,23-1022.00
+LAW-0404,调解员,Mediator,LAW,23-1022.00
+LAW-0501,律师助理,Paralegal,LAW,23-2011.00
+LAW-0502,法律秘书,Legal Secretary,LAW,43-6012.00
+LAW-0503,法律翻译,Legal Translator,LAW,27-3091.00
+LAW-0504,专利代理人,Patent Agent,LAW,23-2011.00
+LAW-0505,商标代理人,Trademark Agent,LAW,23-2011.00
+LAW-0601,社会工作者,Social Worker,LAW,21-1021.00
+LAW-0602,社区组织者,Community Organizer,LAW,21-1094.00
+LAW-0603,儿童福利社工,Child Welfare Social Worker,LAW,21-1021.00
+LAW-0604,医务社工,Medical Social Worker,LAW,21-1022.00
+LAW-0605,学校社工,School Social Worker,LAW,21-1021.00
+LAW-0606,社区发展工作者,Community Development Worker,LAW,21-1094.00
+LAW-0607,社会政策分析师,Social Policy Analyst,LAW,19-3094.00
+LAW-0701,NGO项目经理,NGO Program Manager,LAW,11-9199.00
+LAW-0702,筹款经理,Fundraising Manager,LAW,11-2031.00
+LAW-0703,志愿者管理协调员,Volunteer Coordinator,LAW,11-9151.00
+LAW-0704,人道主义援助工作者,Humanitarian Aid Worker,LAW,21-1099.00
+LAW-0705,难民安置官员,Refugee Resettlement Officer,LAW,21-1099.00
+LAW-0706,人权倡导者,Human Rights Advocate,LAW,21-1099.00
+LAW-0707,灾害救援工作者,Disaster Relief Worker,LAW,21-1099.00
+LAW-0708,环保NGO倡导者,Environmental NGO Advocate,LAW,21-1099.00
+LAW-0801,基督教牧师,Christian Pastor / Minister,LAW,21-2011.00
+LAW-0802,佛教僧侣,Buddhist Monk / Nun,LAW,21-2011.00
+LAW-0803,伊斯兰阿訇/伊玛目,Islamic Imam,LAW,21-2011.00
+LAW-0804,犹太拉比,Rabbi,LAW,21-2011.00
+LAW-0805,天主教神父,Catholic Priest,LAW,21-2011.00
+LAW-0806,道教道士,Taoist Priest,LAW,21-2011.00
+LAW-0807,印度教祭司,Hindu Priest (Pandit),LAW,21-2011.00
+LAW-0808,军队牧师,Military Chaplain,LAW,21-2011.00
+LAW-0901,婚姻家庭咨询师,Marriage & Family Therapist,LAW,21-1013.00
+LAW-0902,戒瘾辅导员,Substance Abuse Counselor,LAW,21-1011.00
+LAW-0903,危机干预咨询师,Crisis Intervention Counselor,LAW,21-1023.00
+LAW-0904,职业康复咨询师,Vocational Rehabilitation Counselor,LAW,21-1015.00
+LAW-0905,赏金猎人,Bounty Hunter / Bail Enforcement Agent,LAW,33-9011.00
+LAW-0906,保释担保人,Bail Bondsman,LAW,13-2099.00
+LAW-0907,家庭暴力受害者倡导者,Domestic Violence Advocate,LAW,21-1099.00
+LAW-0908,遗产规划顾问,Estate Planning Advisor,LAW,23-1011.00
+LAW-1001,数据保护官(DPO),Data Protection Officer (DPO),LAW,13-1041.00
+LAW-1002,法规事务专员,Regulatory Affairs Specialist,LAW,13-1041.00
+LAW-1003,反垄断合规专员,Antitrust Compliance Specialist,LAW,13-1041.00
+LAW-1004,贸易合规专员,Trade Compliance Specialist,LAW,13-1041.06
+LAW-1005,选举监督员,Election Observer / Monitor,LAW,21-1099.00
+LAW-1006,知识产权分析师,Intellectual Property Analyst,LAW,23-2011.00
+LAW-1007,法律科技产品经理,Legal Tech Product Manager,LAW,15-1299.09
+LAW-1008,法律AI训练师,Legal AI Trainer / Specialist,LAW,15-1299.09
+ART-0101,电影导演,Film Director,ART,27-2012.00
+ART-0102,编剧,Screenwriter,ART,27-3043.00
+ART-0103,制片人,Film/TV Producer,ART,27-2012.01
+ART-0104,演员,Actor / Actress,ART,27-2011.00
+ART-0105,摄影指导,Cinematographer / Director of Photography,ART,27-4031.00
+ART-0106,剪辑师,Film/Video Editor,ART,27-4032.00
+ART-0107,视觉特效师(VFX),Visual Effects (VFX) Artist,ART,27-1014.00
+ART-0108,灯光师,Lighting Technician / Gaffer,ART,27-4011.00
+ART-0109,美术指导(影视),Production Designer,ART,27-1027.00
+ART-0110,服装设计师(影视),Costume Designer,ART,27-1022.00
+ART-0111,综艺编导,Variety Show Director,ART,27-2012.00
+ART-0112,选角导演,Casting Director,ART,27-2012.04
+ART-0113,特技演员,Stunt Performer,ART,27-2011.00
+ART-0114,化妆师(影视),Film/TV Makeup Artist,ART,39-5091.00
+ART-0115,收音师,Production Sound Mixer,ART,27-4014.00
+ART-0116,电视导演,Television Director,ART,27-2012.00
+ART-0117,场记,Script Supervisor / Continuity Person,ART,27-2012.00
+ART-0118,调色师,Colorist,ART,27-4032.00
+ART-0119,纪录片导演,Documentary Director,ART,27-2012.00
+ART-0120,动作导演/武术指导,Action Director / Stunt Coordinator,ART,27-2012.00
+ART-0121,外景制片,Location Manager,ART,27-2012.00
+ART-0122,后期制作总监,Post-production Supervisor,ART,27-4032.00
+ART-0123,影视发行人,Film Distribution Executive,ART,11-2011.00
+ART-0201,歌手,Singer / Vocalist,ART,27-2042.00
+ART-0202,作曲家/词曲创作人,Composer / Songwriter,ART,27-2041.00
+ART-0203,音乐制作人,Music Producer,ART,27-2041.00
+ART-0204,录音工程师,Recording Engineer,ART,27-4014.00
+ART-0205,指挥,Orchestra Conductor,ART,27-2041.01
+ART-0206,DJ/电子音乐人,DJ / Electronic Music Producer,ART,27-2042.00
+ART-0207,器乐演奏家,Instrumental Musician,ART,27-2042.02
+ART-0208,音乐编曲师,Music Arranger,ART,27-2041.00
+ART-0209,声乐教师,Vocal Coach / Voice Teacher,ART,25-1121.00
+ART-0210,调音师/音响师,Sound Engineer / Live Sound Technician,ART,27-4014.00
+ART-0211,K-pop练习生,K-pop Trainee,ART,
+ART-0212,音乐治疗师(临床),Clinical Music Therapist,ART,29-1129.00
+ART-0213,音乐版权管理人,Music Rights Manager,ART,13-1199.00
+ART-0214,乐器调律师,Piano/Instrument Tuner,ART,49-9063.00
+ART-0301,小说家/作家,Novelist / Author,ART,27-3043.00
+ART-0302,图书编辑,Book Editor,ART,27-3041.00
+ART-0303,文学经纪人,Literary Agent,ART,13-1011.00
+ART-0304,翻译,Translator,ART,27-3091.00
+ART-0305,技术文档写作,Technical Writer,ART,27-3042.00
+ART-0306,诗人,Poet,ART,27-3043.00
+ART-0307,口译员,Interpreter,ART,27-3091.00
+ART-0308,出版发行人,Publisher,ART,11-2011.00
+ART-0309,漫画家/插画师,Comic Artist / Illustrator,ART,27-1013.00
+ART-0310,书法家,Calligrapher,ART,27-1013.00
+ART-0311,自出版作者,Self-publishing Author,ART,27-3043.00
+ART-0401,舞台剧演员,Theatre Actor,ART,27-2011.00
+ART-0402,舞蹈家/舞者,Dancer / Choreographer,ART,27-2031.00
+ART-0403,脱口秀演员,Stand-up Comedian,ART,27-2011.00
+ART-0404,相声/曲艺演员,Crosstalk / Traditional Comedy Performer,ART,27-2011.00
+ART-0405,魔术师,Magician,ART,27-2011.00
+ART-0406,杂技演员,Acrobat / Circus Performer,ART,27-2011.00
+ART-0407,戏剧导演,Theatre Director,ART,27-2012.02
+ART-0408,舞台监督,Stage Manager,ART,27-2012.04
+ART-0409,歌剧歌手,Opera Singer,ART,27-2042.00
+ART-0410,木偶师,Puppeteer,ART,27-2011.00
+ART-0411,艺伎,Geisha,ART,
+ART-0412,京剧演员,Peking Opera Performer,ART,27-2011.00
+ART-0413,芭蕾舞者,Ballet Dancer,ART,27-2031.00
+ART-0414,马戏团表演者,Circus Performer,ART,27-2011.00
+ART-0415,即兴戏剧演员,Improv Performer,ART,27-2011.00
+ART-0501,博物馆策展人,Museum Curator,ART,25-4012.00
+ART-0502,文物修复师,Art/Artifact Conservator,ART,25-4013.00
+ART-0503,考古学家,Archaeologist,ART,19-3091.00
+ART-0504,非物质文化遗产传承人,Intangible Cultural Heritage Practitioner,ART,
+ART-0505,古建筑修复专家,Heritage Building Restorer,ART,25-4013.00
+ART-0506,博物馆讲解员,Museum Guide / Docent,ART,39-7012.00
+ART-0507,文化遗产保护规划师,Heritage Conservation Planner,ART,25-4013.00
+ART-0508,博物馆教育员,Museum Educator,ART,25-4012.00
+ART-0601,平面设计师,Graphic Designer,ART,27-1024.00
+ART-0602,工业设计师,Industrial Designer,ART,27-1021.00
+ART-0603,时装设计师,Fashion Designer,ART,27-1022.00
+ART-0604,室内设计师,Interior Designer,ART,27-1025.00
+ART-0605,珠宝设计师,Jewelry Designer,ART,27-1029.00
+ART-0606,文创产品设计师,Cultural/Creative Product Designer,ART,27-1029.00
+ART-0607,品牌设计师,Brand Identity Designer,ART,27-1024.00
+ART-0608,包装设计师,Packaging Designer,ART,27-1024.00
+ART-0609,展览设计师,Exhibition Designer,ART,27-1027.00
+ART-0610,花艺设计师,Floral Designer,ART,27-1023.00
+ART-0611,家具设计师,Furniture Designer,ART,27-1021.00
+ART-0612,字体设计师,Type Designer / Typographer,ART,27-1024.00
+ART-0613,动态图形设计师,Motion Graphics Designer,ART,27-1014.00
+ART-0614,用户体验设计师(非IT),Service Designer / Experience Designer,ART,27-1029.00
+ART-0701,2D动画师,2D Animator,ART,27-1014.00
+ART-0702,3D动画师,3D Animator,ART,27-1014.00
+ART-0703,游戏策划,Game Designer / Game Planner,ART,15-1255.01
+ART-0704,游戏美术设计师,Game Artist,ART,27-1014.00
+ART-0705,关卡设计师,Level Designer,ART,15-1255.01
+ART-0706,游戏音效设计师,Game Sound Designer,ART,27-4014.00
+ART-0707,游戏程序员,Game Programmer,ART,15-1252.00
+ART-0708,动作捕捉技术员,Motion Capture Technician,ART,27-4014.00
+ART-0709,游戏叙事设计师,Narrative Designer,ART,27-3043.00
+ART-0710,技术美术(TA),Technical Artist,ART,27-1014.00
+ART-0711,游戏UI设计师,Game UI Designer,ART,15-1255.01
+ART-0712,游戏测试员(QA),Game QA Tester,ART,15-1253.00
+ART-0713,概念艺术家,Concept Artist,ART,27-1013.00
+ART-0801,广告文案,Advertising Copywriter,ART,27-3043.00
+ART-0802,创意总监,Creative Director,ART,11-2011.00
+ART-0803,公关专员,Public Relations Specialist,ART,27-3031.00
+ART-0804,危机公关专家,Crisis Communications Specialist,ART,27-3031.00
+ART-0805,品牌经理,Brand Manager,ART,11-2021.00
+ART-0806,活动策划师,Event Planner,ART,13-1121.00
+ART-0807,媒介购买,Media Buyer,ART,13-1161.00
+ART-0808,广告客户经理,Account Executive (Advertising),ART,11-2011.00
+ART-0809,市场研究分析师,Market Research Analyst,ART,13-1161.00
+ART-0810,SEO/SEM专家,SEO/SEM Specialist,ART,13-1161.00
+ART-0811,内容策略师,Content Strategist,ART,27-3043.00
+ART-0812,影响力营销专员,Influencer Marketing Specialist,ART,13-1161.00
+ART-0813,社会化媒体分析师,Social Media Analyst,ART,13-1161.00
+ART-0901,记者,Journalist / Reporter,ART,27-3022.00
+ART-0902,电视主持人/主播,TV Anchor / Presenter,ART,27-3011.00
+ART-0903,摄影记者,Photojournalist,ART,27-4021.00
+ART-0904,新闻编辑,News Editor,ART,27-3041.00
+ART-0905,调查记者,Investigative Journalist,ART,27-3022.00
+ART-0906,数据新闻记者,Data Journalist,ART,27-3022.00
+ART-0907,广播电台主持人,Radio Host,ART,27-3011.00
+ART-0908,战地记者,War Correspondent,ART,27-3022.00
+ART-0909,气象主播,Weather Anchor / Meteorologist Presenter,ART,27-3011.00
+ART-0910,视频记者/多媒体记者,Video Journalist (VJ) / Multimedia Journalist,ART,27-3022.00
+ART-0911,事实核查员,Fact-checker,ART,27-3041.00
+ART-1001,YouTuber/视频博主,YouTuber / Video Content Creator,ART,27-3043.00
+ART-1002,短视频创作者,Short-form Video Creator,ART,27-3043.00
+ART-1003,播客主持人,Podcast Host,ART,27-3011.00
+ART-1004,博客作者,Blogger / Online Writer,ART,27-3043.00
+ART-1005,VTuber(虚拟主播),VTuber (Virtual YouTuber),ART,
+ART-1006,直播带货主播,Livestream Commerce Host,ART,
+ART-1007,游戏直播主播,Game Streamer,ART,27-2011.00
+ART-1008,KOL/网红,Key Opinion Leader (KOL) / Influencer,ART,27-3043.00
+ART-1009,MCN运营经理,MCN Operations Manager,ART,11-2011.00
+ART-1010,内容审核员,Content Moderator,ART,43-9199.00
+ART-1011,社交媒体经理,Social Media Manager,ART,11-2021.00
+ART-1012,声优/配音演员,Voice Actor (Seiyuu),ART,27-2011.00
+ART-1101,职业足球运动员,Professional Soccer/Football Player,ART,27-2021.00
+ART-1102,职业篮球运动员,Professional Basketball Player,ART,27-2021.00
+ART-1103,职业网球运动员,Professional Tennis Player,ART,27-2021.00
+ART-1104,职业高尔夫球员,Professional Golfer,ART,27-2021.00
+ART-1105,职业电子竞技选手,Professional Esports Player,ART,27-2021.00
+ART-1106,体育教练,Sports Coach / Trainer,ART,27-2022.00
+ART-1107,裁判员,Sports Referee / Umpire,ART,27-2023.00
+ART-1108,体育经纪人,Sports Agent,ART,13-1011.00
+ART-1109,体育解说员/评论员,Sports Commentator / Analyst,ART,27-3011.00
+ART-1110,职业拳击手/格斗选手,Professional Boxer / MMA Fighter,ART,27-2021.00
+ART-1111,职业游泳运动员,Professional Swimmer,ART,27-2021.00
+ART-1112,职业田径运动员,Professional Track & Field Athlete,ART,27-2021.00
+ART-1113,相扑力士,Sumo Wrestler (Rikishi),ART,
+ART-1114,电竞教练,Esports Coach,ART,27-2022.00
+ART-1115,运动营养师,Sports Nutritionist,ART,29-1031.00
+ART-1116,体育记者,Sports Journalist,ART,27-3022.00
+ART-1117,体能训练师,Strength & Conditioning Coach,ART,27-2022.00
+ART-1118,运动心理学家,Sports Psychologist,ART,19-3031.02
+ART-1119,赛事运营经理,Sports Event Operations Manager,ART,13-1121.00
+ART-1120,运动医学医生,Sports Medicine Doctor,ART,29-1229.04
+ART-1201,会展设计师,Exhibition Designer,ART,27-1027.00
+ART-1202,会展组织者,Conference/Exhibition Organizer,ART,13-1121.00
+ART-1203,拍卖师,Auctioneer,ART,27-2099.00
+ART-1204,画廊经营者,Gallery Owner / Dealer,ART,11-9199.00
+ART-1205,艺术品鉴定师,Art Appraiser / Authenticator,ART,13-2023.00
+ART-1206,舞台搭建工,Stagehand / Set Builder,ART,27-4012.00
+ART-1207,艺术博览会策展人,Art Fair Curator,ART,25-4012.00
+ART-1301,图书馆员,Librarian,ART,25-4022.00
+ART-1302,档案管理员,Archivist,ART,25-4011.00
+ART-1303,信息科学专家,Information Scientist,ART,15-1299.09
+ART-1304,数字档案管理员,Digital Archivist,ART,25-4011.00
+ART-1401,IP运营经理,IP Operations Manager,ART,11-2011.00
+ART-1402,文化投资人,Cultural Industry Investor,ART,11-3031.02
+ART-1403,艺人经纪人,Talent Agent / Artist Manager,ART,13-1011.00
+ART-1404,版权管理专员,Copyright/Licensing Manager,ART,11-9199.00
+ART-1405,文化政策研究员,Cultural Policy Researcher,ART,19-3099.00
+ART-1406,艺术节总监,Festival Director,ART,11-2011.00
+ART-1407,剧院经理,Theatre Manager,ART,11-9199.00
+ART-1408,音乐节运营总监,Music Festival Director,ART,11-9199.00
+ART-1409,演出经纪人,Talent Booking Agent,ART,13-1011.00
+ART-1501,商业摄影师,Commercial Photographer,ART,27-4021.00
+ART-1502,婚礼摄影师,Wedding Photographer,ART,27-4021.00
+ART-1503,肖像摄影师,Portrait Photographer,ART,27-4021.00
+ART-1504,时尚摄影师,Fashion Photographer,ART,27-4021.00
+ART-1505,纪实摄影师,Documentary Photographer,ART,27-4021.00
+ART-1506,航拍摄影师,Aerial/Drone Photographer,ART,27-4021.00
+ART-1601,画家/油画家,Painter / Fine Artist,ART,27-1013.00
+ART-1602,雕塑家,Sculptor,ART,27-1013.00
+ART-1603,版画家,Printmaker,ART,27-1013.00
+ART-1604,装置艺术家,Installation Artist,ART,27-1013.00
+ART-1605,行为艺术家,Performance Artist,ART,27-2011.00
+ART-1606,壁画师,Muralist,ART,27-1013.00
+ART-1607,数字艺术家/AI艺术家,Digital / AI Artist,ART,27-1013.00
+ART-1608,艺术评论家,Art Critic,ART,27-3043.00
+ART-1701,歌舞伎演员,Kabuki Actor,ART,27-2011.00
+ART-1702,能乐演员,Noh Theatre Performer,ART,27-2011.00
+ART-1703,黑人灵歌/福音歌手,Gospel Singer,ART,27-2042.00
+ART-1704,弗拉门戈舞者,Flamenco Dancer,ART,27-2031.00
+ART-1705,印度古典舞者,Indian Classical Dancer,ART,27-2031.00
+ART-1706,粤剧演员,Cantonese Opera Performer,ART,27-2011.00
+ART-1707,昆曲演员,Kunqu Opera Performer,ART,27-2011.00
+ART-1708,皮影戏表演者,Shadow Puppetry Performer,ART,27-2011.00
+ART-1709,评书/说书人,Storyteller (Pingshu),ART,27-2011.00
+ART-1710,民族乐器演奏家,Traditional/Folk Instrument Player,ART,27-2042.02
+ART-1711,二人转演员,Er Ren Zhuan Performer,ART,
+ART-1712,落语家,Rakugo Performer,ART,
+TRA-0101,民航飞行员,Commercial Airline Pilot,TRA,53-2011.00
+TRA-0102,空中乘务员,Flight Attendant,TRA,53-2031.00
+TRA-0103,航空管制员,Air Traffic Controller,TRA,53-2021.00
+TRA-0104,机场运营经理,Airport Operations Manager,TRA,11-3071.01
+TRA-0105,飞机维修工程师,Aircraft Maintenance Engineer,TRA,49-3011.00
+TRA-0106,飞行签派员,Flight Dispatcher,TRA,53-2022.00
+TRA-0107,货机飞行员,Cargo Pilot,TRA,53-2011.00
+TRA-0108,直升机飞行员,Helicopter Pilot,TRA,53-2012.00
+TRA-0109,航空地勤,Airport Ground Crew,TRA,53-2031.00
+TRA-0110,机务人员,Aircraft Mechanic,TRA,49-3011.00
+TRA-0111,航空货运代理,Air Cargo Agent,TRA,43-5011.01
+TRA-0112,航空安全检查员,Aviation Safety Inspector,TRA,53-6051.07
+TRA-0113,飞行教官(民航),Certified Flight Instructor,TRA,25-3021.00
+TRA-0201,船长,Ship Captain / Master Mariner,TRA,53-5021.00
+TRA-0202,大副/二副,Chief/Second Officer (Mate),TRA,53-5021.00
+TRA-0203,轮机长,Chief Engineer (Marine),TRA,53-5031.00
+TRA-0204,普通海员,Able Seaman,TRA,53-5011.00
+TRA-0205,港口管理人员,Port Manager,TRA,11-3071.01
+TRA-0206,引航员,Marine Pilot / Harbor Pilot,TRA,53-5021.02
+TRA-0207,船舶检验师,Marine Surveyor,TRA,53-5021.00
+TRA-0208,邮轮乘务员,Cruise Ship Crew,TRA,53-2031.00
+TRA-0209,船舶调度员,Vessel Traffic Controller,TRA,53-5021.02
+TRA-0210,海洋救助员,Maritime Search & Rescue Worker,TRA,33-2011.00
+TRA-0211,船舶代理人,Ship Broker / Shipping Agent,TRA,43-5011.01
+TRA-0301,列车司机,Train Driver / Locomotive Engineer,TRA,53-4011.00
+TRA-0302,铁路调度员,Railway Dispatcher,TRA,43-5032.00
+TRA-0303,铁路维护工程师,Railway Maintenance Engineer,TRA,49-9097.00
+TRA-0304,高铁技术工程师,High-Speed Rail Engineer,TRA,17-2141.00
+TRA-0305,列车长/车务员,Train Conductor,TRA,53-4031.00
+TRA-0306,地铁运营员,Metro Operations Staff,TRA,53-4011.00
+TRA-0307,信号工程师(铁路),Railway Signal Engineer,TRA,17-2071.00
+TRA-0308,铁路客运服务员,Railway Passenger Service Agent,TRA,43-4181.00
+TRA-0309,轨道车辆工程师,Rolling Stock Engineer,TRA,17-2141.00
+TRA-0401,长途卡车司机,Long-haul Truck Driver,TRA,53-3032.00
+TRA-0402,公交车司机,Bus Driver,TRA,53-3052.00
+TRA-0403,出租车司机,Taxi Driver,TRA,53-3054.00
+TRA-0404,驾校教练,Driving Instructor,TRA,25-3021.00
+TRA-0405,特种车辆驾驶员,Specialized Vehicle Driver,TRA,53-3032.00
+TRA-0406,道路救援员,Roadside Assistance Technician,TRA,49-3023.00
+TRA-0407,摩托车信使,Motorcycle Courier,TRA,53-3054.00
+TRA-0408,校车司机,School Bus Driver,TRA,53-3051.00
+TRA-0409,拖车司机/重型运输司机,Tow Truck / Heavy Hauler Driver,TRA,53-3032.00
+TRA-0410,搬家工人,Moving Company Worker / Mover,TRA,53-7062.00
+TRA-0501,仓储经理,Warehouse Manager,TRA,11-3071.02
+TRA-0502,物流经理,Logistics Manager,TRA,11-3071.01
+TRA-0503,报关员,Customs Broker,TRA,13-1041.06
+TRA-0504,货运代理人,Freight Forwarder,TRA,43-5011.01
+TRA-0505,仓库管理员,Warehouse Operative / Stocker,TRA,53-7065.00
+TRA-0506,物流分析师,Logistics Analyst,TRA,13-1081.01
+TRA-0507,跨境电商物流专员,Cross-border E-commerce Logistics Specialist,TRA,43-5011.01
+TRA-0508,叉车操作员,Forklift Operator,TRA,53-7051.00
+TRA-0509,冷链物流专员,Cold Chain Logistics Specialist,TRA,11-3071.02
+TRA-0510,物流自动化工程师,Logistics Automation Engineer,TRA,17-2112.00
+TRA-0511,危险品运输管理员,Hazardous Materials Transport Manager,TRA,53-1044.00
+TRA-0601,快递员,Courier / Delivery Driver,TRA,53-7065.00
+TRA-0602,外卖骑手,Food Delivery Rider,TRA,53-7065.00
+TRA-0603,同城配送员,Same-City Express Courier,TRA,53-7065.00
+TRA-0604,快递站长,Delivery Station Manager,TRA,11-3071.02
+TRA-0605,达巴瓦拉(印度送餐人),Dabbawala (Mumbai Lunchbox Deliverer),TRA,
+TRA-0606,包裹柜运维员,Parcel Locker Technician,TRA,49-9071.00
+TRA-0701,交通规划师,Transportation Planner,TRA,19-3051.00
+TRA-0702,交通工程师,Traffic Engineer,TRA,17-2051.00
+TRA-0703,停车场管理员,Parking Manager / Attendant,TRA,53-6021.00
+TRA-0704,共享出行运营经理,Shared Mobility Operations Manager,TRA,11-3071.01
+TRA-0705,自动驾驶安全员,Autonomous Vehicle Safety Operator,TRA,53-3054.00
+TRA-0706,交通信号技术员,Traffic Signal Technician,TRA,49-2098.00
+TRA-0801,管道运行工,Pipeline Operator,TRA,53-7072.00
+TRA-0802,管道检测技师,Pipeline Inspection Technician,TRA,53-7072.00
+TRA-0803,管道调度员,Pipeline Dispatcher,TRA,43-5032.00
+TRA-0901,商业航天飞行员,Commercial Space Pilot,TRA,53-2011.00
+TRA-0902,航天任务控制员,Mission Control Specialist,TRA,53-2021.00
+TRA-0903,太空旅游顾问,Space Tourism Consultant,TRA,41-3041.00
+SKL-0101,电工,Electrician,SKL,47-2111.00
+SKL-0102,电梯维修技师,Elevator Repair Technician,SKL,47-4021.00
+SKL-0103,电力线路工人,Power Line Worker / Lineman,SKL,49-9051.00
+SKL-0104,工业电气技师,Industrial Electrician,SKL,47-2111.00
+SKL-0105,太阳能电池板安装工,Solar Panel Installer,SKL,47-2231.00
+SKL-0106,防雷工程师,Lightning Protection Technician,SKL,47-2111.00
+SKL-0107,弱电工程师,Low-Voltage Systems Technician,SKL,49-2022.00
+SKL-0108,电动车充电桩安装技师,EV Charging Station Installer,SKL,47-2111.00
+SKL-0109,通信线路技师,Telecommunications Line Technician,SKL,49-9052.00
+SKL-0110,家电维修技师,Appliance Repair Technician,SKL,49-9031.00
+SKL-0111,安防监控安装技师,Security & CCTV Installation Technician,SKL,49-2098.00
+SKL-0201,水管工,Plumber,SKL,47-2152.00
+SKL-0202,暖通空调技师,HVAC Technician,SKL,49-9021.00
+SKL-0203,制冷技师,Refrigeration Technician,SKL,49-9021.00
+SKL-0204,管道安装工,Pipefitter,SKL,47-2152.02
+SKL-0205,锅炉技师,Boiler Technician,SKL,51-8021.00
+SKL-0206,燃气安装维修工,Gas Fitter,SKL,47-2152.00
+SKL-0207,洒水/消防系统安装工,Sprinkler Fitter / Fire Suppression Installer,SKL,47-2152.03
+SKL-0208,管道清洗工,Drain Technician / Sewer Cleaner,SKL,47-2152.00
+SKL-0301,电弧焊工,Arc Welder,SKL,51-4121.00
+SKL-0302,TIG焊工,TIG Welder,SKL,51-4121.00
+SKL-0303,水下焊工,Underwater Welder,SKL,51-4121.00
+SKL-0304,焊接检验员,Welding Inspector,SKL,51-4121.00
+SKL-0305,管道焊工,Pipe Welder,SKL,51-4121.00
+SKL-0306,机器人焊接技师,Robotic Welding Technician,SKL,51-4121.00
+SKL-0307,MIG焊工,MIG Welder,SKL,51-4121.00
+SKL-0308,铝焊工,Aluminum Welder,SKL,51-4121.00
+SKL-0401,CNC操作员,CNC Machine Operator,SKL,51-4011.00
+SKL-0402,车工,Lathe Operator / Turner,SKL,51-4034.00
+SKL-0403,铣工,Milling Machine Operator,SKL,51-4035.00
+SKL-0404,模具制造技师,Tool & Die Maker,SKL,51-4111.00
+SKL-0405,磨床操作员,Grinder Operator,SKL,51-4033.00
+SKL-0406,钣金工,Sheet Metal Worker,SKL,47-2211.00
+SKL-0407,CNC编程员,CNC Programmer,SKL,51-4012.00
+SKL-0408,精密加工技师,Precision Machinist,SKL,51-4041.00
+SKL-0409,3D打印技术员,3D Printing Technician / Additive Manufacturing,SKL,51-4041.00
+SKL-0410,电火花加工技师,EDM (Electrical Discharge Machining) Technician,SKL,51-4041.00
+SKL-0411,数控磨床操作员,CNC Grinding Operator,SKL,51-4033.00
+SKL-0501,汽车维修技师,Automotive Mechanic / Technician,SKL,49-3023.00
+SKL-0502,汽车钣金工,Auto Body Repairer,SKL,49-3021.00
+SKL-0503,汽车喷漆工,Automotive Painter,SKL,51-9124.00
+SKL-0504,新能源汽车维修技师,EV Repair Technician,SKL,49-3023.00
+SKL-0505,汽车诊断技师,Automotive Diagnostic Technician,SKL,49-3023.00
+SKL-0506,摩托车维修技师,Motorcycle Mechanic,SKL,49-3052.00
+SKL-0507,轮胎技师,Tire Technician,SKL,49-3093.00
+SKL-0508,汽车空调维修技师,Automotive AC Technician,SKL,49-3023.00
+SKL-0509,柴油机技师,Diesel Mechanic,SKL,49-3031.00
+SKL-0510,汽车改装技师,Automotive Customization Technician,SKL,49-3023.00
+SKL-0511,汽车贴膜/改色技师,Vehicle Wrap / Tinting Technician,SKL,49-3023.00
+SKL-0601,砌筑工,Bricklayer / Mason,SKL,47-2021.00
+SKL-0602,抹灰工,Plasterer,SKL,47-2161.00
+SKL-0603,防水工,Waterproofing Worker,SKL,47-2141.00
+SKL-0604,钢筋工,Rebar Worker / Ironworker,SKL,47-2171.00
+SKL-0605,混凝土工,Concrete Finisher,SKL,47-2051.00
+SKL-0606,脚手架工,Scaffolder,SKL,47-2225.00
+SKL-0607,吊车操作员,Crane Operator,SKL,53-7021.00
+SKL-0608,挖掘机操作员,Excavator Operator,SKL,47-2073.00
+SKL-0609,瓦工/贴砖工,Tile Setter,SKL,47-2044.00
+SKL-0610,油漆工,Painter (Construction),SKL,47-2141.00
+SKL-0611,屋顶工,Roofer,SKL,47-2181.00
+SKL-0612,玻璃安装工,Glazier,SKL,47-2121.00
+SKL-0613,地板安装工,Floor Layer / Installer,SKL,47-2042.00
+SKL-0614,石材工,Stone Mason,SKL,47-2022.00
+SKL-0615,桩基工,Pile Driver Operator,SKL,47-2072.00
+SKL-0616,绝缘工,Insulation Worker,SKL,47-2131.00
+SKL-0617,木模工,Formwork Carpenter / Shuttering Joiner,SKL,47-2031.00
+SKL-0701,木工/细木工,Carpenter / Joiner,SKL,47-2031.00
+SKL-0702,裁缝,Tailor / Dressmaker,SKL,51-6052.00
+SKL-0703,陶艺师,Potter / Ceramicist,SKL,51-9195.04
+SKL-0704,制表师/钟表匠,Watchmaker / Horologist,SKL,49-9064.00
+SKL-0705,珠宝工匠,Jewelry Craftsman / Goldsmith,SKL,51-9071.00
+SKL-0706,铁匠/锻工,Blacksmith,SKL,51-4022.00
+SKL-0707,玻璃工匠,Glassblower / Glass Artisan,SKL,51-9195.00
+SKL-0708,皮革工匠,Leather Worker / Saddler,SKL,51-6041.00
+SKL-0709,编织工艺师,Weaver / Textile Artisan,SKL,51-6063.00
+SKL-0710,猎鹰训练师,Falconer,SKL,
+SKL-0711,烟斗工匠,Pipe Maker,SKL,51-9199.00
+SKL-0712,乐器制作师,Musical Instrument Maker / Luthier,SKL,51-9071.06
+SKL-0713,书籍装帧师,Bookbinder,SKL,51-5113.00
+SKL-0714,雕刻师,Engraver / Carver,SKL,51-9194.00
+SKL-0715,鞋匠/制鞋师,Cobbler / Shoemaker,SKL,51-6041.00
+SKL-0716,酿酒师(手工啤酒),Craft Brewer,SKL,51-3092.00
+SKL-0801,美发师,Hairdresser / Barber,SKL,39-5012.00
+SKL-0802,美容师,Beautician / Esthetician,SKL,39-5094.00
+SKL-0803,纹身师,Tattoo Artist,SKL,39-5091.00
+SKL-0804,化妆师,Makeup Artist,SKL,39-5091.00
+SKL-0805,美甲师,Nail Technician / Manicurist,SKL,39-5092.00
+SKL-0806,美睫师,Eyelash Extension Technician,SKL,39-5094.00
+SKL-0807,假发制作师,Wig Maker,SKL,39-5012.00
+SKL-0901,推土机操作员,Bulldozer Operator,SKL,47-2073.00
+SKL-0902,混凝土搅拌车司机,Concrete Mixer Truck Driver,SKL,53-3032.00
+SKL-0903,装载机操作员,Loader Operator,SKL,53-7032.00
+SKL-0904,压路机操作员,Road Roller Operator,SKL,47-2073.00
+SKL-0905,打桩机操作员,Pile Driver / Piling Rig Operator,SKL,47-2072.00
+SKL-0906,高空作业车操作员,Aerial Work Platform Operator,SKL,53-7021.00
+SKL-0907,矿用卡车司机,Mining Haul Truck Driver,SKL,53-7032.00
+SKL-0908,隧道掘进机操作员,Tunnel Boring Machine (TBM) Operator,SKL,47-5041.00
+SKL-1001,工业机械维修工,Industrial Machinery Mechanic,SKL,49-9041.00
+SKL-1002,液压系统维修工,Hydraulic Systems Technician,SKL,49-9041.00
+SKL-1003,仪表维修技师,Instrument Maintenance Technician,SKL,49-9062.00
+SKL-1004,印刷机操作员,Printing Press Operator,SKL,51-5112.00
+SKL-1005,锁匠,Locksmith,SKL,49-9094.00
+SKL-1006,自动售货机维修工,Vending Machine Technician,SKL,49-9091.00
+SKL-1007,电池回收技术员,Battery Recycling Technician,SKL,51-9199.00
+SVC-0101,中餐厨师,Chinese Cuisine Chef,SVC,35-1011.00
+SVC-0102,西餐厨师,Western Cuisine Chef,SVC,35-1011.00
+SVC-0103,西点烘焙师,Pastry Chef / Baker,SVC,51-3011.00
+SVC-0104,调酒师,Bartender / Mixologist,SVC,35-3011.00
+SVC-0105,侍酒师,Sommelier,SVC,35-3031.00
+SVC-0106,餐厅经理,Restaurant Manager,SVC,11-9051.00
+SVC-0107,食品安全检查员,Food Safety Inspector,SVC,45-2011.00
+SVC-0108,食品研发工程师,Food Product Developer,SVC,19-1012.00
+SVC-0109,日料寿司师傅,Sushi Chef / Itamae,SVC,35-1011.00
+SVC-0110,咖啡师,Barista,SVC,35-3023.01
+SVC-0111,服务员,Waiter / Waitress,SVC,35-3031.00
+SVC-0112,行政总厨,Executive Chef,SVC,35-1011.00
+SVC-0113,屠宰师/肉类切割师,Butcher / Meat Cutter,SVC,51-3021.00
+SVC-0114,巧克力师,Chocolatier,SVC,51-3092.00
+SVC-0115,茶艺师,Tea Ceremony Master / Tea Specialist,SVC,
+SVC-0116,食品卫生管理员,Food Hygiene Manager,SVC,29-9011.00
+SVC-0117,面包师,Bread Baker / Boulanger,SVC,51-3011.00
+SVC-0118,甜品师,Dessert Chef / Pâtissier,SVC,51-3011.00
+SVC-0119,餐饮连锁运营经理,Restaurant Chain Operations Manager,SVC,11-9051.00
+SVC-0120,美食评论家/美食博主,Food Critic / Food Blogger,SVC,27-3043.00
+SVC-0121,中央厨房经理,Central Kitchen / Commissary Manager,SVC,11-9051.00
+SVC-0201,酒店总经理,Hotel General Manager,SVC,11-9081.00
+SVC-0202,前台接待员,Hotel Front Desk Receptionist,SVC,43-4081.00
+SVC-0203,导游,Tour Guide,SVC,39-7012.00
+SVC-0204,旅行社计调,Travel Agency Operations Planner,SVC,41-3041.00
+SVC-0205,OTA运营经理,Online Travel Agency (OTA) Operations Manager,SVC,11-9081.00
+SVC-0206,礼宾部经理,Concierge Manager,SVC,39-6012.00
+SVC-0207,客房管理主管,Housekeeping Manager,SVC,37-1011.00
+SVC-0208,度假村经理,Resort Manager,SVC,11-9081.00
+SVC-0209,邮轮经理,Cruise Director,SVC,11-9081.00
+SVC-0210,旅游规划师,Tourism Planner / Destination Manager,SVC,19-3051.00
+SVC-0211,民宿经营者,B&B / Guesthouse Operator,SVC,11-9081.00
+SVC-0212,旅游顾问,Travel Consultant,SVC,41-3041.00
+SVC-0213,赌场酒店经理,Casino/Resort Hotel Manager,SVC,11-9081.00
+SVC-0214,主题公园运营经理,Theme Park Operations Manager,SVC,11-9071.00
+SVC-0215,生态旅游导游,Ecotourism Guide,SVC,39-7012.00
+SVC-0216,酒店收益管理师,Hotel Revenue Manager,SVC,11-9081.00
+SVC-0301,零售店员/销售助理,Retail Sales Associate,SVC,41-2031.00
+SVC-0302,店长,Store Manager,SVC,41-1011.00
+SVC-0303,买手,Retail Buyer / Merchandiser,SVC,13-1022.00
+SVC-0304,电商运营专员,E-commerce Operations Specialist,SVC,11-2021.00
+SVC-0305,视觉陈列设计师,Visual Merchandiser,SVC,27-1026.00
+SVC-0306,收银员,Cashier,SVC,41-2011.00
+SVC-0307,奢侈品销售顾问,Luxury Retail Sales Advisor,SVC,41-2031.00
+SVC-0308,加油站员工,Gas Station Attendant,SVC,53-6031.00
+SVC-0309,仓储会员店运营,Warehouse Club Operations Staff,SVC,41-1011.00
+SVC-0310,直播电商运营,Livestream E-commerce Operator,SVC,
+SVC-0311,超市部门经理,Supermarket Department Manager,SVC,41-1011.00
+SVC-0312,药房零售店员,Pharmacy Retail Assistant,SVC,29-2052.00
+SVC-0313,二手店/古着店经营者,Secondhand / Vintage Shop Owner,SVC,41-1011.00
+SVC-0314,花店经营者,Florist / Flower Shop Owner,SVC,27-1023.00
+SVC-0401,美容顾问,Beauty Consultant / Advisor,SVC,39-5094.00
+SVC-0402,SPA技师/水疗师,Spa Therapist,SVC,39-9032.00
+SVC-0403,注册营养师,Registered Dietitian,SVC,29-1031.00
+SVC-0404,健身教练,Fitness Trainer / Personal Trainer,SVC,39-9031.00
+SVC-0405,瑜伽教练,Yoga Instructor,SVC,39-9031.00
+SVC-0406,普拉提教练,Pilates Instructor,SVC,39-9031.00
+SVC-0407,按摩治疗师,Massage Therapist,SVC,31-9011.00
+SVC-0408,皮肤管理师,Skin Care Specialist,SVC,39-5094.00
+SVC-0409,体重管理顾问,Weight Management Consultant,SVC,29-1031.00
+SVC-0410,游泳教练,Swimming Coach / Instructor,SVC,39-9031.00
+SVC-0411,芳香治疗师,Aromatherapist,SVC,39-9032.00
+SVC-0412,足疗师/反射疗法师,Reflexologist / Foot Massage Therapist,SVC,31-9011.00
+SVC-0413,康体私教(功能训练),Functional Training Coach,SVC,39-9031.00
+SVC-0501,保姆/家政服务员,Domestic Helper / Housekeeper,SVC,39-9011.00
+SVC-0502,月嫂/产后护理师,Maternity Nurse / Postpartum Doula,SVC,31-1131.00
+SVC-0503,育儿嫂,Childcare Nanny,SVC,39-9011.00
+SVC-0504,家庭教师,Home Tutor,SVC,25-3098.00
+SVC-0505,老年护理员,Elderly Care Worker,SVC,31-1122.00
+SVC-0506,残障护理员,Disability Support Worker,SVC,31-1122.00
+SVC-0507,陪诊员,Medical Appointment Companion,SVC,
+SVC-0508,宠物护理员/宠物美容师,Pet Groomer / Pet Care Worker,SVC,39-2021.00
+SVC-0509,宠物训练师,Pet/Dog Trainer,SVC,39-2011.00
+SVC-0510,家庭收纳师,Professional Home Organizer,SVC,
+SVC-0511,管家(私人/豪宅),Butler / Estate Manager,SVC,39-9011.00
+SVC-0512,临终关怀护理员,Hospice Care Worker,SVC,31-1122.00
+SVC-0513,私人厨师,Private Chef,SVC,35-1011.00
+SVC-0514,家庭护理协调员,Home Care Coordinator,SVC,31-1121.00
+SVC-0601,网约车司机,Ride-hailing Driver (Uber/Didi/etc.),SVC,53-3054.00
+SVC-0602,跑腿代办,Errand Runner / Task-based Worker,SVC,53-7065.00
+SVC-0603,自由职业者平台接单,Freelancer (Fiverr/Upwork/etc.),SVC,15-1252.00
+SVC-0604,任务众包工人,Task-based Gig Worker (TaskRabbit/etc.),SVC,53-7065.00
+SVC-0605,M-Pesa代理人,M-Pesa Agent,SVC,
+SVC-0606,共享单车运维员,Bike-sharing Maintenance Worker,SVC,49-3091.00
+SVC-0607,代购/个人购物者,Personal Shopper / Daigou Agent,SVC,41-2031.00
+SVC-0608,在线虚拟助理,Virtual Assistant (Online),SVC,43-6014.00
+SVC-0609,民宿清洁服务者,Airbnb / Vacation Rental Cleaner,SVC,37-2012.00
+SVC-0701,殡葬师/殡仪馆主任,Funeral Director / Mortician,SVC,39-4031.00
+SVC-0702,遗体化妆师,Embalmer / Mortuary Cosmetician,SVC,39-4011.00
+SVC-0703,公墓管理员,Cemetery Manager,SVC,39-4031.00
+SVC-0704,哀伤辅导师,Grief Counselor,SVC,21-1013.00
+SVC-0801,性工作者(合法地区),Licensed Sex Worker (Legal Jurisdictions),SVC,
+SVC-0802,博彩从业者/荷官,Casino Dealer / Gaming Worker,SVC,39-3011.00
+SVC-0803,大麻产业工人(合法地区),Cannabis Industry Worker (Legal Jurisdictions),SVC,
+SVC-0804,彩票销售员,Lottery Sales Agent,SVC,41-2031.00
+SVC-0805,烟草专卖员(合法地区),Tobacco Retail Specialist,SVC,41-2031.00
+SVC-0901,保洁员,Janitor / Cleaner,SVC,37-2011.00
+SVC-0902,物业维修工,Building Maintenance Worker,SVC,49-9071.00
+SVC-0903,园艺师/园丁,Gardener / Landscaper,SVC,37-3011.00
+SVC-0904,害虫防治员,Pest Control Technician,SVC,37-2021.00
+SVC-0905,高空清洁工(蜘蛛人),High-rise Window Cleaner,SVC,37-2011.00
+SVC-0906,泳池维护技师,Pool Maintenance Technician,SVC,37-2011.00
+SVC-0907,洗衣/干洗师,Laundry / Dry Cleaning Worker,SVC,51-6011.00
+SVC-0908,电梯操作员,Elevator Operator,SVC,53-6011.00
+SVC-0909,停车管理员,Parking Lot Attendant,SVC,53-6021.00
+SVC-0910,地毯清洁工,Carpet Cleaner,SVC,37-2012.00
+SVC-0911,工业清洁工(高压清洗等),Industrial Cleaner / Pressure Washer,SVC,37-2011.00
+SVC-1001,保安,Security Guard,SVC,33-9032.00
+SVC-1002,私人保镖,Personal Bodyguard,SVC,33-9032.00
+SVC-1003,安检员,Security Screener,SVC,33-9093.00
+SVC-1004,私家侦探,Private Investigator,SVC,33-9021.00
+SVC-1005,安防系统技术员,Security System Technician,SVC,49-2098.00
+SVC-1101,客服专员/呼叫中心坐席,Customer Service Representative / Call Center Agent,SVC,43-4051.00
+SVC-1102,客服经理,Customer Service Manager,SVC,11-9199.00
+SVC-1103,投诉处理专员,Complaints Handler,SVC,43-4051.00
+SVC-1104,技术支持专员,Technical Support Specialist,SVC,15-1232.00
+SVC-1105,在线客服(聊天),Online Chat Support Agent,SVC,43-4051.00
+SVC-1201,行政助理/秘书,Administrative Assistant / Secretary,SVC,43-6014.00
+SVC-1202,前台接待员(企业),Corporate Receptionist,SVC,43-4171.00
+SVC-1203,办公室经理,Office Manager,SVC,11-3012.00
+SVC-1204,会议/日程协调员,Meeting / Schedule Coordinator,SVC,43-6014.00
+SVC-1205,速记员/文字录入员,Stenographer / Data Entry Clerk,SVC,43-9021.00
+SVC-1301,婚礼策划师,Wedding Planner,SVC,13-1121.00
+SVC-1302,司仪/婚礼主持人,Wedding Officiant / MC,SVC,27-2011.00
+SVC-1303,婚纱礼服顾问,Bridal Gown Consultant,SVC,41-2031.00
+SVC-1304,婚礼花艺师,Wedding Florist,SVC,27-1023.00
+SVC-1305,活动安保经理,Event Security Manager,SVC,33-9032.00
+SVC-1401,密室逃脱设计师,Escape Room Designer,SVC,27-1027.00
+SVC-1402,游乐园操作员,Amusement Park Ride Operator,SVC,39-3091.00
+SVC-1403,保龄球馆/台球厅经理,Bowling Alley / Billiards Hall Manager,SVC,11-9071.00
+SVC-1404,高尔夫球场管理员,Golf Course Superintendent,SVC,11-9071.00
+SVC-1405,KTV/歌厅经理,Karaoke Venue Manager,SVC,11-9071.00
+SVC-1406,潜水教练,Scuba Diving Instructor,SVC,39-9031.00
+SVC-1407,滑雪教练,Ski Instructor,SVC,39-9031.00
+SVC-1408,马术教练,Equestrian Coach / Riding Instructor,SVC,39-9031.00
+SVC-1409,攀岩教练,Rock Climbing Instructor,SVC,39-9031.00
+SVC-1410,射击教练,Shooting / Firearms Instructor,SVC,39-9031.00
+SVC-1411,蹦极/跳伞教练,Bungee Jumping / Skydiving Instructor,SVC,39-9031.00
+SVC-1412,电子竞技赛事运营,Esports Event Organizer,SVC,13-1121.00
+SVC-1413,赛车机械师,Motorsport Mechanic,SVC,49-3023.00
+SVC-1414,宠物酒店经理,Pet Hotel / Boarding Manager,SVC,11-9071.00
+AGR-0101,粮食作物种植者,Grain Farmer,AGR,45-2091.00
+AGR-0102,果蔬种植者,Fruit & Vegetable Grower,AGR,45-2092.02
+AGR-0103,茶叶种植与加工师,Tea Farmer / Tea Processing Specialist,AGR,45-2092.02
+AGR-0104,花卉种植师,Floriculturist / Flower Grower,AGR,45-2092.01
+AGR-0105,有机农业技术员,Organic Farming Technician,AGR,45-2091.00
+AGR-0106,精准农业技术员,Precision Agriculture Technician,AGR,45-2091.00
+AGR-0107,农学家/农艺师,Agronomist,AGR,19-1011.00
+AGR-0108,葡萄酒酿造师,Winemaker / Viticulturist,AGR,45-2092.02
+AGR-0109,种子研究员,Seed Researcher / Plant Breeder,AGR,19-1013.00
+AGR-0110,灌溉专员,Irrigation Specialist,AGR,45-2091.00
+AGR-0111,烟草种植者,Tobacco Farmer,AGR,45-2091.00
+AGR-0112,咖啡种植者,Coffee Farmer,AGR,45-2092.02
+AGR-0113,蘑菇种植者,Mushroom Farmer,AGR,45-2092.02
+AGR-0114,农业无人机操作员,Agricultural Drone Operator,AGR,45-2091.00
+AGR-0201,畜牧养殖者,Livestock Farmer / Rancher,AGR,45-2093.00
+AGR-0202,兽医,Veterinarian,AGR,29-1131.00
+AGR-0203,乳业技术员,Dairy Technician,AGR,45-2093.00
+AGR-0204,家禽养殖者,Poultry Farmer,AGR,45-2093.00
+AGR-0205,畜牧育种师,Animal Breeder,AGR,45-2021.00
+AGR-0206,兽医助理/兽医技师,Veterinary Technician,AGR,29-2056.00
+AGR-0207,动物营养师,Animal Nutritionist,AGR,19-1011.00
+AGR-0208,养蜂人,Beekeeper / Apiarist,AGR,45-2093.00
+AGR-0209,牧场经理,Ranch Manager,AGR,11-9013.00
+AGR-0210,蚕丝养殖者,Sericulturist / Silkworm Farmer,AGR,45-2093.00
+AGR-0301,远洋渔民,Deep-sea Fisherman,AGR,45-3011.00
+AGR-0302,淡水渔业养殖者,Freshwater Fish Farmer,AGR,45-3031.00
+AGR-0303,水产养殖技术员,Aquaculture Technician,AGR,45-3031.00
+AGR-0304,水产品加工技师,Seafood Processing Technician,AGR,51-3022.00
+AGR-0305,海洋生物学家,Marine Biologist,AGR,19-1023.00
+AGR-0306,珍珠养殖者,Pearl Farmer / Oyster Culturist,AGR,45-3031.00
+AGR-0307,渔业检查员,Fisheries Inspector,AGR,45-3011.00
+AGR-0401,露天矿工,Open-pit Miner,AGR,47-5041.00
+AGR-0402,井下矿工,Underground Miner,AGR,47-5041.00
+AGR-0403,矿业工程师,Mining Engineer,AGR,17-2151.00
+AGR-0404,地质学家/探矿师,Geologist / Exploration Geologist,AGR,19-2042.00
+AGR-0405,爆破技师,Blaster / Explosives Technician,AGR,47-5031.00
+AGR-0406,矿山安全工程师,Mine Safety Engineer,AGR,17-2111.02
+AGR-0407,FIFO矿工(飞进飞出矿工),FIFO Miner (Fly-In Fly-Out),AGR,47-5041.00
+AGR-0408,手工采矿工人,Artisanal / Small-scale Miner,AGR,47-5041.00
+AGR-0501,石油工程师,Petroleum Engineer,AGR,17-2171.00
+AGR-0502,钻井工程师,Drilling Engineer,AGR,17-2171.00
+AGR-0503,管道工程师(油气),Pipeline Engineer,AGR,17-2171.00
+AGR-0504,炼化工程师,Refinery Process Engineer,AGR,17-2041.00
+AGR-0505,油田技术员,Oilfield Technician,AGR,47-5013.00
+AGR-0506,油气勘探地球物理师,Geophysicist (Oil & Gas Exploration),AGR,19-2042.00
+AGR-0507,天然气处理技师,Natural Gas Processing Technician,AGR,51-8093.00
+AGR-0508,LNG工程师,LNG (Liquefied Natural Gas) Engineer,AGR,17-2171.00
+AGR-0509,海上石油平台工人,Offshore Oil Platform Worker,AGR,47-5013.00
+AGR-0601,太阳能工程师,Solar Energy Engineer,AGR,17-2199.11
+AGR-0602,风电工程师,Wind Energy Engineer,AGR,17-2199.11
+AGR-0603,储能系统工程师,Energy Storage Engineer,AGR,17-2199.11
+AGR-0604,氢能工程师,Hydrogen Energy Engineer,AGR,17-2199.11
+AGR-0605,风电场运维技术员,Wind Turbine Technician,AGR,49-9081.00
+AGR-0606,碳交易分析师,Carbon Trading Analyst,AGR,13-2051.00
+AGR-0607,新能源项目开发经理,Renewable Energy Project Developer,AGR,11-9199.00
+AGR-0608,生物质能工程师,Biomass Energy Engineer,AGR,17-2199.11
+AGR-0609,地热工程师,Geothermal Engineer,AGR,17-2199.11
+AGR-0701,环境工程师,Environmental Engineer,AGR,17-2081.00
+AGR-0702,污水处理工程师,Wastewater Treatment Engineer,AGR,17-2081.00
+AGR-0703,废物管理专员,Waste Management Specialist,AGR,17-2081.00
+AGR-0704,环境影响评价师,Environmental Impact Assessor,AGR,19-2041.00
+AGR-0705,环境科学家,Environmental Scientist,AGR,19-2041.00
+AGR-0706,空气质量分析师,Air Quality Analyst,AGR,19-2041.01
+AGR-0707,生态修复专家,Ecological Restoration Specialist,AGR,19-1029.00
+AGR-0708,水资源管理师,Water Resources Manager,AGR,17-2081.00
+AGR-0709,环保合规顾问,Environmental Compliance Consultant,AGR,13-1041.01
+AGR-0710,土壤修复工程师,Soil Remediation Engineer,AGR,17-2081.00
+AGR-0711,野生动物保护专家,Wildlife Conservation Specialist,AGR,19-1023.00
+AGR-0801,护林员,Forest Ranger / Park Ranger,AGR,19-1031.03
+AGR-0802,木材加工师,Timber Processing Specialist / Sawyer,AGR,45-4023.00
+AGR-0803,森林消防员,Wildland Firefighter,AGR,33-2011.00
+AGR-0804,林业工程师,Forestry Engineer / Silviculturist,AGR,19-1032.00
+AGR-0805,伐木工,Logger / Lumberjack,AGR,45-4022.00
+AGR-0806,树艺师,Arborist / Tree Surgeon,AGR,37-3013.00
+AGR-0901,农业物联网工程师,Agricultural IoT Engineer,AGR,15-1252.00
+AGR-0902,垂直农场运营经理,Vertical Farm Operations Manager,AGR,45-2091.00
+AGR-0903,农业生物技术研究员,Agricultural Biotechnology Researcher,AGR,19-1013.00
+AGR-0904,食品科学家,Food Scientist,AGR,19-1012.00
+AGR-0905,农业经济学家,Agricultural Economist,AGR,19-3011.00
+AGR-0906,植物保护员/植检员,Plant Protection / Phytosanitary Inspector,AGR,45-2011.00
+AGR-0907,昆虫学家,Entomologist,AGR,19-1023.00
+AGR-0908,土壤科学家,Soil Scientist,AGR,19-1013.00
+AGR-0909,农产品质量检测员,Agricultural Product Quality Inspector,AGR,45-2011.00
+AGR-0910,农业气象学家,Agricultural Meteorologist,AGR,19-2021.00
+AGR-0911,智能温室管理员,Smart Greenhouse Manager,AGR,45-2091.00
+AGR-0912,农业保险评估师,Agricultural Insurance Assessor,AGR,13-1031.02
