@@ -1175,7 +1175,7 @@ class TestCalculateComposite:
 
 - [ ] **Step 3: Run tests to verify they fail**
 
-Run: `cd /localhome/swqa/workspace/skills_test/trends_and_heat_map && python3 -m pytest tests/test_score_calculator.py -v`
+Run: `cd . && python3 -m pytest tests/test_score_calculator.py -v`
 Expected: FAIL — `ModuleNotFoundError: No module named 'tools.score_calculator'`
 
 - [ ] **Step 4: Write implementation**
@@ -1262,7 +1262,7 @@ def calculate_composite(scores, weights, reverse_dims=None):
 
 - [ ] **Step 5: Run tests to verify they pass**
 
-Run: `cd /localhome/swqa/workspace/skills_test/trends_and_heat_map && python3 -m pytest tests/test_score_calculator.py -v`
+Run: `cd . && python3 -m pytest tests/test_score_calculator.py -v`
 Expected: All 7 tests PASS.
 
 - [ ] **Step 6: Commit**
